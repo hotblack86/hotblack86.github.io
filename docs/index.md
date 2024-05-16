@@ -1299,12 +1299,14 @@ data-a11y-dialog-hide
 class="popup__content"
 role="document"
 >
+{% raw %}
 {% render 'video-player',
 id: video_player_id,
 video_type: 'html5',
 video: video_file,
 poster_image_sizes: '(min-width: 990px) 990px, calc(100vw - 36px)'
 %}
+{% endraw %}
 </div>
 </div>
 </video-dialog>
@@ -1334,6 +1336,7 @@ Video gallery
  class="home-video__stage-video is-active"
  id="video-gallery-slide--1"
 >
+ {% raw %}
  {% render 'video-player',
    id: 'video-player-1',
    video_type: "youtube",
@@ -1341,28 +1344,33 @@ Video gallery
    poster_image: preview_image_object,
    poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
  %}
+ {% endraw %}
 </video-gallery-slide>
 <video-gallery-slide
  class="home-video__stage-video"
  id="video-gallery-slide--2"
 >
+ {% raw %}
  {% render 'video-player',
    id: 'video-player-2',
    video_type: "vimeo",
    external_video_id: "1234567789",
    poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
  %}
+ {% endraw %}
 </video-gallery-slide>
 <video-gallery-slide
  class="home-video__stage-video"
  id="video-gallery-slide--3"
 >
+ {% raw %}
  {% render 'video-player',
    id: 'video-player-1',
    video_type: 'html5',
    video: video,
    poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
  %}
+ {% endraw %}
 </video-gallery-slide>
 </div>
 </div>
@@ -1483,7 +1491,9 @@ sizes: sizes,
 widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 }}
 </video-poster>
+{% raw %}
 {% render 'theme-spinner', tag: 'video-loading-indicator', hidden: true %}
+{% endraw %}
 <video-element></video-element>
 <template>
 <div id="{{ section.id | append: '--' | append: media.id }}" video-element data-{{- media.host -}}-id="{{ media.external_id }}"></div>
