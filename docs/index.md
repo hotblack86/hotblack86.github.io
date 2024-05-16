@@ -1,3 +1,63 @@
+## Table of Contents
+
+| Web Component Name                 |
+|--------------------------------|
+| [accordion-group](#accordion-group)               |
+| [announcement-bar](#announcement-bar)             |
+| [back-to-top-button](#back-to-top-button)         |
+| [cart-link](#cart-link)                           |
+| [cart-recommendations](#cart-recommendations)     |
+| [cart-store](#cart-store)                         |
+| [deferred-media](#deferred-media)                 |
+| [details-disclosure](#details-disclosure)         |
+| [drawer-menu](#drawer-menu)                       |
+| [dynamic-product-search](#dynamic-product-search) |
+| [filters-dialog](#filters-dialog)                 |
+| [free-shipping-bar](#free-shipping-bar)           |
+| [gift-card-recipient](#gift-card-recipient)       |
+| [header-container](#header-container)             |
+| [header-details-disclosure](#header-details-disclosure) |
+| [image-compare](#image-compare)                   |
+| [image-skeleton](#image-skeleton)                 |
+| [index](#index)                                   |
+| [interactive-cart](#interactive-cart)             |
+| [interactive-map](#interactive-map)               |
+| [items-scroll](#items-scroll)                     |
+| [lazy-video](#lazy-video)                         |
+| [localize-details-disclosure](#localize-details-disclosure) |
+| [maps-with-details](#maps-with-details)           |
+| [media-carousel](#media-carousel)                 |
+| [media-gallery](#media-gallery)                   |
+| [modal-dialog](#modal-dialog)                     |
+| [nested-menu](#nested-menu)                       |
+| [pickup-availability](#pickup-availability)       |
+| [popup-dialog](#popup-dialog)                     |
+| [predictive-search](#predictive-search)           |
+| [price-range](#price-range)                       |
+| [product-card-mini](#product-card-mini)           |
+| [product-card-spinner](#product-card-spinner)     |
+| [product-card-swatches](#product-card-swatches)   |
+| [product-form](#product-form)                     |
+| [product-interactive-options](#product-interactive-options) |
+| [product-model](#product-model)                   |
+| [product-recommendations](#product-recommendations) |
+| [product-single](#product-single)                 |
+| [quantity-input](#quantity-input)                 |
+| [quick-shop](#quick-shop)                         |
+| [recent-searches](#recent-searches)               |
+| [scroll-to-target](#scroll-to-target)             |
+| [scrolling-marquee](#scrolling-marquee)           |
+| [search-form](#search-form)                       |
+| [search-modal](#search-modal)                     |
+| [sticky-scroll](#sticky-scroll)                   |
+| [tabbed-content](#tabbed-content)                 |
+| [variant-selects](#variant-selects)               |
+| [video-dialog](#video-dialog)                     |
+| [video-gallery](#video-gallery)                   |
+| [video-player](#video-player)                     |
+
+
+
 # accordion-group
 
 ## Methods
