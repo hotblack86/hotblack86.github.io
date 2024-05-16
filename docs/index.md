@@ -1439,7 +1439,6 @@ data-target-id="video-gallery-slide--{{ block.id }}"
      alt="Video 3 trigger image"
      loading="lazy"
      width="300"
-     height="{{ 300 | divided_by: video_file.preview_image.aspect_ratio | round }}"
    >
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
    <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center icon-fallback">
