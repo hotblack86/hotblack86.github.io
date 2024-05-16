@@ -539,7 +539,7 @@ unsubscribe();
 | `#onResize` | `(entries: any): void` |
 
 
-# media-carousel
+# [media-carousel](/media-carousel) 
 
 Media carousel
 
