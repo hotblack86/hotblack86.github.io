@@ -1,6 +1,5 @@
-## Table of Contents
 
-| Web Component Name                 |
+| ## Table of Contents                 |
 |--------------------------------|
 | [accordion-group](#accordion-group)               |
 | [announcement-bar](#announcement-bar)             |
