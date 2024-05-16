@@ -1,5 +1,5 @@
 
-| ## Table of Contents                 |
+| Web Components              |
 |--------------------------------|
 | [accordion-group](#accordion-group)               |
 | [announcement-bar](#announcement-bar)             |
