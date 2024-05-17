@@ -1,3 +1,4 @@
+# Index
 
 | Web Components              |
 |--------------------------------|
@@ -1529,7 +1530,7 @@ data-target-id="video-gallery-slide--{{ block.id }}"
 | `#updateVimeoThumbnail` | `(): Promise<void>` |
 
 
-# video-player
+# [video-player](#Index)
 
 Video player
 
