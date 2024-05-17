@@ -1,64 +1,50 @@
 # Index
 
-| Web Components              |
-|--------------------------------|
-| [accordion-group](#accordion-group)               |
-| [announcement-bar](#announcement-bar)             |
-| [back-to-top-button](#back-to-top-button)         |
-| [cart-link](#cart-link)                           |
-| [cart-recommendations](#cart-recommendations)     |
-| [cart-store](#cart-store)                         |
-| [deferred-media](#deferred-media)                 |
-| [details-disclosure](#details-disclosure)         |
-| [drawer-menu](#drawer-menu)                       |
-| [dynamic-product-search](#dynamic-product-search) |
-| [filters-dialog](#filters-dialog)                 |
-| [free-shipping-bar](#free-shipping-bar)           |
-| [gift-card-recipient](#gift-card-recipient)       |
-| [header-container](#header-container)             |
-| [header-details-disclosure](#header-details-disclosure) |
-| [image-compare](#image-compare)                   |
-| [image-skeleton](#image-skeleton)                 |
-| [index](#index)                                   |
-| [interactive-cart](#interactive-cart)             |
-| [interactive-map](#interactive-map)               |
-| [items-scroll](#items-scroll)                     |
-| [lazy-video](#lazy-video)                         |
-| [localize-details-disclosure](#localize-details-disclosure) |
-| [maps-with-details](#maps-with-details)           |
-| [media-carousel](#media-carousel)                 |
-| [media-gallery](#media-gallery)                   |
-| [modal-dialog](#modal-dialog)                     |
-| [nested-menu](#nested-menu)                       |
-| [pickup-availability](#pickup-availability)       |
-| [popup-dialog](#popup-dialog)                     |
-| [predictive-search](#predictive-search)           |
-| [price-range](#price-range)                       |
-| [product-card-mini](#product-card-mini)           |
-| [product-card-spinner](#product-card-spinner)     |
-| [product-card-swatches](#product-card-swatches)   |
-| [product-form](#product-form)                     |
-| [product-interactive-options](#product-interactive-options) |
-| [product-model](#product-model)                   |
-| [product-recommendations](#product-recommendations) |
-| [product-single](#product-single)                 |
-| [quantity-input](#quantity-input)                 |
-| [quick-shop](#quick-shop)                         |
-| [recent-searches](#recent-searches)               |
-| [scroll-to-target](#scroll-to-target)             |
-| [scrolling-marquee](#scrolling-marquee)           |
-| [search-form](#search-form)                       |
-| [search-modal](#search-modal)                     |
-| [sticky-scroll](#sticky-scroll)                   |
-| [tabbed-content](#tabbed-content)                 |
-| [variant-selects](#variant-selects)               |
-| [video-dialog](#video-dialog)                     |
-| [video-gallery](#video-gallery)                   |
-| [video-player](#video-player)                     |
+| **Cart Components**                              | **Product Components**                     | **Variant Components**                    | **Other Components**                             |
+|--------------------------------------------------|--------------------------------------------|-------------------------------------------|-------------------------------------------------|
+| [cart-free-shipping-bar](#cart-free-shipping-bar) | [product-card](#product-card)              | [variant-mixed-inputs](#variant-mixed-inputs) | [accordion-group](#accordion-group)             |
+| [cart-gift-wrapping-banner](#cart-gift-wrapping-banner) | [product-card-spinner](#product-card-spinner) | [variant-radios](#variant-radios)         | [announcement-bar](#announcement-bar)           |
+| [cart-gift-wrapping-message](#cart-gift-wrapping-message) | [product-card-swatches](#product-card-swatches) | [variant-selects](#variant-selects)       | [back-to-top-button](#back-to-top-button)       |
+| [cart-item](#cart-item)                          | [product-form](#product-form)              | [variant-swatches](#variant-swatches)     | [details-disclosure](#details-disclosure)       |
+| [cart-items](#cart-items)                        | [product-interactive-options](#product-interactive-options) |                                       | [drawer-menu](#drawer-menu)                     |
+| [cart-link](#cart-link)                          | [product-model](#product-model)            |                                           | [dynamic-product-search](#dynamic-product-search) |
+| [cart-notification](#cart-notification)          | [product-recommendations](#product-recommendations) |                                        | [filters-dialog](#filters-dialog)               |
+| [cart-note](#cart-note)                          | [product-single](#product-single)          |                                           | [gift-card-recipient](#gift-card-recipient)     |
+| [cart-quantity-info](#cart-quantity-info)        |                                            |                                           | [header-container](#header-container)           |
+| [cart-recommendations](#cart-recommendations)    |                                            |                                           | [header-details-disclosure](#header-details-disclosure) |
+| [cart-spinner](#cart-spinner)                    |                                            |                                           | [image-compare](#image-compare)                 |
+| [cart-store](#cart-store)                        |                                            |                                           | [image-skeleton](#image-skeleton)               |
+|                                                  |                                            |                                           | [interactive-map](#interactive-map)             |
+|                                                  |                                            |                                           | [items-scroll](#items-scroll)                   |
+|                                                  |                                            |                                           | [lazy-video](#lazy-video)                       |
+|                                                  |                                            |                                           | [localize-details-disclosure](#localize-details-disclosure) |
+|                                                  |                                            |                                           | [maps-with-details](#maps-with-details)         |
+|                                                  |                                            |                                           | [media-carousel](#media-carousel)               |
+|                                                  |                                            |                                           | [media-gallery](#media-gallery)                 |
+|                                                  |                                            |                                           | [modal-dialog](#modal-dialog)                   |
+|                                                  |                                            |                                           | [nested-menu](#nested-menu)                     |
+|                                                  |                                            |                                           | [pickup-availability](#pickup-availability)     |
+|                                                  |                                            |                                           | [popup-dialog](#popup-dialog)                   |
+|                                                  |                                            |                                           | [predictive-search](#predictive-search)         |
+|                                                  |                                            |                                           | [price-range](#price-range)                     |
+|                                                  |                                            |                                           | [quick-shop](#quick-shop)                       |
+|                                                  |                                            |                                           | [recent-searches](#recent-searches)             |
+|                                                  |                                            |                                           | [scroll-to-target](#scroll-to-target)           |
+|                                                  |                                            |                                           | [scrolling-marquee](#scrolling-marquee)         |
+|                                                  |                                            |                                           | [search-form](#search-form)                     |
+|                                                  |                                            |                                           | [search-modal](#search-modal)                   |
+|                                                  |                                            |                                           | [sticky-scroll](#sticky-scroll)                 |
+|                                                  |                                            |                                           | [tabbed-content](#tabbed-content)               |
+|                                                  |                                            |                                           | [video-dialog](#video-dialog)                   |
+|                                                  |                                            |                                           | [video-gallery](#video-gallery)                 |
+|                                                  |                                            |                                           | [video-player](#video-player)                   |
 
 
 
-# accordion-group
+
+
+
+# [accordion-group](/accordion-group)
 
 ## Methods
 
@@ -70,7 +56,7 @@
 | `open`                  | `(id: any): void` |
 
 
-# announcement-bar
+# [announcement-bar](/announcement-bar)
 
 ## Methods
 
@@ -99,7 +85,7 @@
 | `toggleClassBasedOnScreenSize` | `(): void`                                   |
 
 
-# back-to-top-button
+# [back-to-top-button](/back-to-top-button)
 
 ## Properties
 
@@ -116,7 +102,7 @@
 | `toggleVisibility` | `(): void` |
 
 
-# interactive-cart
+# [interactive-cart](/interactive-cart)
 
 ## Methods
 
@@ -230,7 +216,7 @@
 | `#setIsDoing` | `(isDoing?: boolean, error?: boolean): Promise<any>` |
 
 
-# free-shipping-bar
+# [cart-free-shipping-bar](/free-shipping-bar)
 
 ## Methods
 
@@ -242,7 +228,7 @@
 | `#update`                | `(): void`       |
 
 
-# cart-link
+# [cart-link](/cart-link)
 
 ## Properties
 
@@ -251,7 +237,7 @@
 | `itemsCount` | `any \| any` |
 
 
-# cart-recommendations
+# [cart-recommendations](/cart-recommendations)
 
 ## Methods
 
@@ -260,7 +246,7 @@
 | `#createCard` | `(): any` |
 
 
-# cart-store
+# [cart-store](/cart-store)
 
 Cart store
 
@@ -329,7 +315,7 @@ unsubscribe();
 | `on:cart:loading` | `Object` | Request started event               |
 
 
-# deferred-media
+# [deferred-media](/deferred-media)
 
 ## Methods
 
@@ -338,7 +324,7 @@ unsubscribe();
 | `loadContent` | `(focus?: boolean): void` |
 
 
-# details-disclosure
+# [details-disclosure](/details-disclosure)
 
 ## Properties
 
@@ -356,7 +342,7 @@ unsubscribe();
 | `onToggle`   | `(): void` |
 
 
-# drawer-menu
+# [drawer-menu](/drawer-menu)
 
 ## Methods
 
@@ -374,7 +360,7 @@ unsubscribe();
 | `setCurrentPanelId`          | `(): void`                                       |
 
 
-# dynamic-product-search
+# [dynamic-product-search](/dynamic-product-search)
 
 ## Methods
 
@@ -403,7 +389,7 @@ unsubscribe();
 | `on:dynamic-product-search:loading` | `CustomEvent<any>` |
 
 
-# filters-dialog
+# [filters-dialog](/filters-dialog)
 
 ## Methods
 
@@ -414,7 +400,7 @@ unsubscribe();
 | `init`                    | `(): void`                |
 
 
-# gift-card-recipient
+# [gift-card-recipient](/gift-card-recipient)
 
 ## Properties
 
@@ -431,7 +417,7 @@ unsubscribe();
 | `activateFieldset` | `(): void` |
 
 
-# header-container
+# [header-container](/header-container)
 
 ## Methods
 
@@ -441,7 +427,7 @@ unsubscribe();
 | `#setScrollStatus` | `(didScroll?: boolean): void`               |
 
 
-# header-details-disclosure
+# [header-details-disclosure](/header-details-disclosure)
 
 ## Methods
 
@@ -459,10 +445,10 @@ unsubscribe();
 | `open`                 | `(): void`                 |
 
 
-# image-compare
+# [image-compare](/image-compare)
 
 
-# image-skeleton
+# [image-skeleton](/image-skeleton)
 
 ## Methods
 
@@ -472,10 +458,10 @@ unsubscribe();
 | `markAsLoaded` | `(): void` |
 
 
-# interactive-map
+# [interactive-map](/interactive-map)
 
 
-# items-scroll
+# [items-scroll](/items-scroll)
 
 ## Properties
 
@@ -519,10 +505,10 @@ unsubscribe();
 | `smoothScrollItems`            | `(position: any): Promise<any>`            |
 
 
-# lazy-video
+# [lazy-video](/lazy-video)
 
 
-# localize-details-disclosure
+# [localize-details-disclosure](/localize-details-disclosure)
 
 ## Methods
 
@@ -531,7 +517,7 @@ unsubscribe();
 | `#handleClick` | `(e: any): void` |
 
 
-# maps-with-details
+# [maps-with-details](/maps-with-details)
 
 ## Methods
 
@@ -640,7 +626,7 @@ js-carousel-next
 | `on:media-carousel:slide-transition-end` | `Object` | Event fired after a slide transition ends    |
 
 
-# media-gallery
+# [media-gallery](/media-gallery)
 
 ## Methods
 
@@ -659,7 +645,7 @@ js-carousel-next
 | `goToSlide`                          | `(mediaId: any): void`                           |                                                  |
 
 
-# modal-dialog
+# [modal-dialog](/modal-dialog)
 
 Modal component
 
@@ -747,7 +733,7 @@ data-a11y-dialog-hide
 | `--width`                  | Modal width (if placed right or left) |
 
 
-# nested-menu
+# [nested-menu](/nested-menu)
 
 ## Properties
 
@@ -773,7 +759,7 @@ data-a11y-dialog-hide
 | `activate`            | `(row: any): void`                    | Activate a menu row.                             |
 
 
-# pickup-availability
+# [pickup-availability](/pickup-availability)
 
 ## Methods
 
@@ -785,7 +771,7 @@ data-a11y-dialog-hide
 | `renderPreview`      | `(sectionInnerHTML: any): void` |
 
 
-# popup-dialog
+# [popup-dialog](/popup-dialog)
 
 Popup dialog
 
@@ -891,7 +877,7 @@ data-a11y-dialog-hide
 | `--width`                  | Popup max width        |
 
 
-# predictive-search
+# [predictive-search](/predictive-search)
 
 ## Properties
 
@@ -920,7 +906,7 @@ data-a11y-dialog-hide
 | `switchOption`               | `(direction: any): void`      |
 
 
-# price-range
+# [price-range](/price-range)
 
 ## Methods
 
@@ -930,7 +916,7 @@ data-a11y-dialog-hide
 | `#onRangeInput`  | `(): void` |
 
 
-# product-card-spinner
+# [product-card-spinner](/product-card-spinner)
 
 ## Properties
 
@@ -946,7 +932,7 @@ data-a11y-dialog-hide
 | `#init`            | `(): void`                  |
 
 
-# product-card-swatches
+# [product-card-swatches](/product-card-swatches)
 
 ## Properties
 
@@ -966,26 +952,7 @@ data-a11y-dialog-hide
 | `updateQuickShopVariant` | `(swatch: any): void`    |
 
 
-# product-card-mini
-
-## Properties
-
-| Property  | Type             |
-|-----------|------------------|
-| `id`      | `string \| null` |
-| `product` |                  |
-
-## Methods
-
-| Method                     | Type                                             |
-|----------------------------|--------------------------------------------------|
-| `#onQuickShopTriggerClick` | `(event: any): Promise<void>`                    |
-| `renderImage`              | `(url: any, width: any, height: any, classes?: string, alt?: string, sizes?: string, srcsetWidths?: number[]): HTMLImageElement \| null` |
-| `updateImage`              | `(url: any, width: any, height: any, alt?: string, srcsetWidths?: number[]): void` |
-| `updateSkeleton`           | `(): void`                                       |
-
-
-# product-card
+# [product-card](/product-card-mini)
 
 ## Properties
 
@@ -1008,7 +975,26 @@ data-a11y-dialog-hide
 | `updateSkeleton`           | `(): void`                                       |
 
 
-# product-form
+# [product-card-mini](/product-card-mini)
+
+## Properties
+
+| Property  | Type             |
+|-----------|------------------|
+| `id`      | `string \| null` |
+| `product` |                  |
+
+## Methods
+
+| Method                     | Type                                             |
+|----------------------------|--------------------------------------------------|
+| `#onQuickShopTriggerClick` | `(event: any): Promise<void>`                    |
+| `renderImage`              | `(url: any, width: any, height: any, classes?: string, alt?: string, sizes?: string, srcsetWidths?: number[]): HTMLImageElement \| null` |
+| `updateImage`              | `(url: any, width: any, height: any, alt?: string, srcsetWidths?: number[]): void` |
+| `updateSkeleton`           | `(): void`                                       |
+
+
+# [product-form](/product-form)
 
 ## Methods
 
@@ -1020,7 +1006,7 @@ data-a11y-dialog-hide
 | `submit`       | `(e: any): Promise<void>`                        |
 
 
-# product-interactive-options
+# [product-interactive-options](/product-interactive-options)
 
 ## Methods
 
@@ -1042,7 +1028,7 @@ data-a11y-dialog-hide
 | `setUpInputListeners`                  | `(): void`                                       |                                                  |
 
 
-# product-model
+# [product-model](/product-model)
 
 ## Methods
 
@@ -1058,7 +1044,7 @@ data-a11y-dialog-hide
 | `on:product-model:loaded` | `CustomEvent<any>` |
 
 
-# product-recommendations
+# [product-recommendations](/product-recommendations)
 
 ## Properties
 
@@ -1073,7 +1059,7 @@ data-a11y-dialog-hide
 | `#loadRecommendations` | `(): void` |
 
 
-# product-single
+# [product-single](/product-single)
 
 ## Properties
 
@@ -1089,7 +1075,7 @@ data-a11y-dialog-hide
 | `updateMedia`                          | `(): void` |
 
 
-# quantity-input
+# [quantity-input](/quantity-input)
 
 ## Properties
 
@@ -1112,7 +1098,7 @@ data-a11y-dialog-hide
 | `update` | `CustomEvent<{ value: any; }>` |
 
 
-# quick-shop
+# [quick-shop](/quick-shop)
 
 ## Properties
 
@@ -1146,13 +1132,13 @@ data-a11y-dialog-hide
 | `on:quick-shop:loading` | `CustomEvent<any>` |
 
 
-# recent-searches
+# [recent-searches](/recent-searches)
 
 
-# scroll-to-target
+# [scroll-to-target](/scroll-to-target)
 
 
-# scrolling-marquee
+# [scrolling-marquee](/scrolling-marquee)
 
 ## Properties
 
@@ -1174,7 +1160,7 @@ data-a11y-dialog-hide
 | `setMarqueeSpeed` | `(): void` |
 
 
-# search-form
+# [search-form](/search-form)
 
 ## Properties
 
@@ -1189,7 +1175,7 @@ data-a11y-dialog-hide
 | `addFormStateToRecentSearches` | `(): void` |
 
 
-# search-modal
+# [search-modal](/search-modal)
 
 ## Methods
 
@@ -1198,7 +1184,7 @@ data-a11y-dialog-hide
 | `#onCloseSearchModal` | `(): void` |
 
 
-# sticky-scroll
+# [sticky-scroll](/sticky-scroll)
 
 ## Methods
 
@@ -1209,7 +1195,7 @@ data-a11y-dialog-hide
 | `#setTopGap`             | `(): void` |
 
 
-# tabbed-content
+# [tabbed-content](/tabbed-content)
 
 ## Methods
 
@@ -1218,7 +1204,7 @@ data-a11y-dialog-hide
 | `openTab` | `(id: any): void` |
 
 
-# tab-triggers
+# [tab-triggers](/tabbed-content)
 
 ## Properties
 
@@ -1236,7 +1222,7 @@ data-a11y-dialog-hide
 | `#updateControls`       | `(): void` |
 
 
-# variant-selects
+# [variant-selects](/variant-selects)
 
 ## Methods
 
@@ -1262,7 +1248,7 @@ data-a11y-dialog-hide
 | `on:variant:change` | `CustomEvent<{ variant: any; }>` |
 
 
-# variant-radios
+# [variant-radios](/variant-selects)
 
 ## Methods
 
@@ -1288,7 +1274,7 @@ data-a11y-dialog-hide
 | `on:variant:change` | `CustomEvent<{ variant: any; }>` |
 
 
-# variant-swatches
+# [variant-swatches](/variant-selects)
 
 ## Methods
 
@@ -1297,7 +1283,7 @@ data-a11y-dialog-hide
 | `updateLabel` | `(): void` |
 
 
-# variant-mixed-inputs
+# [variant-mixed-inputs](/variant-selects)
 
 ## Methods
 
@@ -1323,7 +1309,7 @@ data-a11y-dialog-hide
 | `on:variant:change` | `CustomEvent<{ variant: any; }>` |
 
 
-# video-dialog
+# [video-dialog](/video-dialog)
 
 Video popup dialog
 
@@ -1380,7 +1366,7 @@ poster_image_sizes: '(min-width: 990px) 990px, calc(100vw - 36px)'
 | `#pauseVideo`       | `(): void` |
 
 
-# video-gallery
+# [video-gallery](/video-gallery)
 
 Video gallery
 
@@ -1530,7 +1516,7 @@ data-target-id="video-gallery-slide--{{ block.id }}"
 | `#updateVimeoThumbnail` | `(): Promise<void>` |
 
 
-# [video-player](#Index)
+# [video-player](/video-player) 
 
 Video player
 
