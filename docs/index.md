@@ -1,44 +1,57 @@
 # Index
 
-| **Cart Components**                              | **Product Components**                     | **Variant Components**                    | **Other Components**                             |
-|--------------------------------------------------|--------------------------------------------|-------------------------------------------|-------------------------------------------------|
-| [cart-free-shipping-bar](#cart-free-shipping-bar) | [product-card](#product-card)              | [variant-mixed-inputs](#variant-mixed-inputs) | [accordion-group](#accordion-group)             |
-| [cart-gift-wrapping-banner](#cart-gift-wrapping-banner) | [product-card-spinner](#product-card-spinner) | [variant-radios](#variant-radios)         | [announcement-bar](#announcement-bar)           |
-| [cart-gift-wrapping-message](#cart-gift-wrapping-message) | [product-card-swatches](#product-card-swatches) | [variant-selects](#variant-selects)       | [back-to-top-button](#back-to-top-button)       |
-| [cart-item](#cart-item)                          | [product-form](#product-form)              | [variant-swatches](#variant-swatches)     | [details-disclosure](#details-disclosure)       |
-| [cart-items](#cart-items)                        | [product-interactive-options](#product-interactive-options) |                                       | [drawer-menu](#drawer-menu)                     |
-| [cart-link](#cart-link)                          | [product-model](#product-model)            |                                           | [dynamic-product-search](#dynamic-product-search) |
-| [cart-notification](#cart-notification)          | [product-recommendations](#product-recommendations) |                                        | [filters-dialog](#filters-dialog)               |
-| [cart-note](#cart-note)                          | [product-single](#product-single)          |                                           | [gift-card-recipient](#gift-card-recipient)     |
-| [cart-quantity-info](#cart-quantity-info)        |                                            |                                           | [header-container](#header-container)           |
-| [cart-recommendations](#cart-recommendations)    |                                            |                                           | [header-details-disclosure](#header-details-disclosure) |
-| [cart-spinner](#cart-spinner)                    |                                            |                                           | [image-compare](#image-compare)                 |
-| [cart-store](#cart-store)                        |                                            |                                           | [image-skeleton](#image-skeleton)               |
-|                                                  |                                            |                                           | [interactive-map](#interactive-map)             |
-|                                                  |                                            |                                           | [items-scroll](#items-scroll)                   |
-|                                                  |                                            |                                           | [lazy-video](#lazy-video)                       |
-|                                                  |                                            |                                           | [localize-details-disclosure](#localize-details-disclosure) |
-|                                                  |                                            |                                           | [maps-with-details](#maps-with-details)         |
-|                                                  |                                            |                                           | [media-carousel](#media-carousel)               |
-|                                                  |                                            |                                           | [media-gallery](#media-gallery)                 |
-|                                                  |                                            |                                           | [modal-dialog](#modal-dialog)                   |
-|                                                  |                                            |                                           | [nested-menu](#nested-menu)                     |
-|                                                  |                                            |                                           | [pickup-availability](#pickup-availability)     |
-|                                                  |                                            |                                           | [popup-dialog](#popup-dialog)                   |
-|                                                  |                                            |                                           | [predictive-search](#predictive-search)         |
-|                                                  |                                            |                                           | [price-range](#price-range)                     |
-|                                                  |                                            |                                           | [quick-shop](#quick-shop)                       |
-|                                                  |                                            |                                           | [recent-searches](#recent-searches)             |
-|                                                  |                                            |                                           | [scroll-to-target](#scroll-to-target)           |
-|                                                  |                                            |                                           | [scrolling-marquee](#scrolling-marquee)         |
-|                                                  |                                            |                                           | [search-form](#search-form)                     |
-|                                                  |                                            |                                           | [search-modal](#search-modal)                   |
-|                                                  |                                            |                                           | [sticky-scroll](#sticky-scroll)                 |
-|                                                  |                                            |                                           | [tabbed-content](#tabbed-content)               |
-|                                                  |                                            |                                           | [video-dialog](#video-dialog)                   |
-|                                                  |                                            |                                           | [video-gallery](#video-gallery)                 |
-|                                                  |                                            |                                           | [video-player](#video-player)                   |
-
+| **Cart Components**                              | **Product Components**                     | **Variant Components**                    |
+|--------------------------------------------------|--------------------------------------------|-------------------------------------------|
+| [cart-free-shipping-bar](#cart-free-shipping-bar) | [product-card](#product-card)              | [variant-mixed-inputs](#variant-mixed-inputs) |
+| [cart-gift-wrapping-banner](#cart-gift-wrapping-banner) | [product-card-spinner](#product-card-spinner) | [variant-radios](#variant-radios)         |
+| [cart-gift-wrapping-message](#cart-gift-wrapping-message) | [product-card-swatches](#product-card-swatches) | [variant-selects](#variant-selects)       |
+| [cart-item](#cart-item)                          | [product-form](#product-form)              | [variant-swatches](#variant-swatches)     |
+| [cart-items](#cart-items)                        | [product-interactive-options](#product-interactive-options) |                                       |
+| [cart-link](#cart-link)                          | [product-model](#product-model)            |                                           |
+| [cart-notification](#cart-notification)          | [product-recommendations](#product-recommendations) |                                        |
+| [cart-note](#cart-note)                          | [product-single](#product-single)          |                                           |
+| [cart-quantity-info](#cart-quantity-info)        |                                            |                                           |
+| [cart-recommendations](#cart-recommendations)    |                                            |                                           |
+| [cart-spinner](#cart-spinner)                    |                                            |                                           |
+| [cart-store](#cart-store)                        |                                            |                                           |
+| **Other Components**                             |                                            |                                           |
+| [accordion-group](#accordion-group)              |                                            |                                           |
+| [announcement-bar](#announcement-bar)            |                                            |                                           |
+| [back-to-top-button](#back-to-top-button)        |                                            |                                           |
+| [details-disclosure](#details-disclosure)        |                                            |                                           |
+| [drawer-menu](#drawer-menu)                      |                                            |                                           |
+| [dynamic-product-search](#dynamic-product-search)|                                            |                                           |
+| [filters-dialog](#filters-dialog)                |                                            |                                           |
+| [gift-card-recipient](#gift-card-recipient)      |                                            |                                           |
+| [header-container](#header-container)            |                                            |                                           |
+| [header-details-disclosure](#header-details-disclosure) |                                        |                                           |
+| [image-compare](#image-compare)                  |                                            |                                           |
+| [image-skeleton](#image-skeleton)                |                                            |                                           |
+| [interactive-cart](#interactive-cart)            |                                            |                                           |
+| [interactive-map](#interactive-map)              |                                            |                                           |
+| [items-scroll](#items-scroll)                    |                                            |                                           |
+| [lazy-video](#lazy-video)                        |                                            |                                           |
+| [localize-details-disclosure](#localize-details-disclosure) |                                       |                                           |
+| [maps-with-details](#maps-with-details)          |                                            |                                           |
+| [media-carousel](#media-carousel)                |                                            |                                           |
+| [media-gallery](#media-gallery)                  |                                            |                                           |
+| [modal-dialog](#modal-dialog)                    |                                            |                                           |
+| [nested-menu](#nested-menu)                      |                                            |                                           |
+| [pickup-availability](#pickup-availability)      |                                            |                                           |
+| [popup-dialog](#popup-dialog)                    |                                            |                                           |
+| [predictive-search](#predictive-search)          |                                            |                                           |
+| [price-range](#price-range)                      |                                            |                                           |
+| [quick-shop](#quick-shop)                        |                                            |                                           |
+| [recent-searches](#recent-searches)              |                                            |                                           |
+| [scroll-to-target](#scroll-to-target)            |                                            |                                           |
+| [scrolling-marquee](#scrolling-marquee)          |                                            |                                           |
+| [search-form](#search-form)                      |                                            |                                           |
+| [search-modal](#search-modal)                    |                                            |                                           |
+| [sticky-scroll](#sticky-scroll)                  |                                            |                                           |
+| [tabbed-content](#tabbed-content)                |                                            |                                           |
+| [video-dialog](#video-dialog)                    |                                            |                                           |
+| [video-gallery](#video-gallery)                  |                                            |                                           |
+| [video-player](#video-player)                    |                                            |                                           |
 
 
 
@@ -102,6 +115,8 @@
 | `toggleVisibility` | `(): void` |
 
 
+**Cart Components**
+
 # [interactive-cart](/interactive-cart)
 
 ## Methods
@@ -117,10 +132,10 @@
 | `#updateFreeShipping`  | `(): void`             |
 
 
-# cart-items
+# [cart-items](/interactive-cart)
 
 
-# cart-item
+# [cart-item](/interactive-cart)
 
 ## Methods
 
@@ -137,7 +152,7 @@
 | `#updateSkeleton`               | `(): void`                        |
 
 
-# discount-list
+# [discount-list](/interactive-cart)
 
 ## Properties
 
@@ -152,7 +167,7 @@
 | `#renderDiscounts` | `(): void` |
 
 
-# cart-textarea
+# [cart-textarea](/interactive-cart)
 
 ## Properties
 
@@ -165,16 +180,16 @@
 | `value`       |
 
 
-# cart-gift-wrapping-message
+# [cart-gift-wrapping-message](/interactive-cart)
 
 
-# cart-note
+# [cart-note](/interactive-cart)
 
 
-# cart-spinner
+# [cart-spinner](/interactive-cart)
 
 
-# cart-terms
+# [cart-terms](/interactive-cart)
 
 ## Methods
 
@@ -185,7 +200,7 @@
 | `#validateForm` | `(e: any): void`                                 |
 
 
-# cart-notification
+# [cart-notification](/interactive-cart)
 
 ## Methods
 
@@ -196,7 +211,7 @@
 | `#updateSkeleton` | `(): void`                        |
 
 
-# cart-quantity-info
+# [cart-quantity-info](/interactive-cart)
 
 ## Properties
 
@@ -206,7 +221,7 @@
 | `itemsCount`  | `any \| any` |
 
 
-# cart-gift-wrapping-banner
+# [cart-gift-wrapping-banner](/interactive-cart)
 
 ## Methods
 
@@ -313,6 +328,8 @@ unsubscribe();
 | `on:cart:failed`  | `Object` | Request failed event                |
 | `on:cart:loaded`  | `Object` | Request finished successfully event |
 | `on:cart:loading` | `Object` | Request started event               |
+
+**/Cart Components**
 
 
 # [deferred-media](/deferred-media)
@@ -916,6 +933,8 @@ data-a11y-dialog-hide
 | `#onRangeInput`  | `(): void` |
 
 
+**Product Components** 
+
 # [product-card-spinner](/product-card-spinner)
 
 ## Properties
@@ -1074,6 +1093,8 @@ data-a11y-dialog-hide
 | `#moveModalsFromStickyScrollContainer` | `(): void` |
 | `updateMedia`                          | `(): void` |
 
+**/Product Components**
+
 
 # [quantity-input](/quantity-input)
 
@@ -1222,6 +1243,8 @@ data-a11y-dialog-hide
 | `#updateControls`       | `(): void` |
 
 
+**Variant Components**
+
 # [variant-selects](/variant-selects)
 
 ## Methods
@@ -1308,6 +1331,7 @@ data-a11y-dialog-hide
 | `change`            |                                  |
 | `on:variant:change` | `CustomEvent<{ variant: any; }>` |
 
+**/Variant Components**
 
 # [video-dialog](/video-dialog)
 
