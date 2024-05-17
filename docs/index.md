@@ -14,6 +14,8 @@
 | [cart-recommendations](#cart-recommendations)    |                                            |                                           |
 | [cart-spinner](#cart-spinner)                    |                                            |                                           |
 | [cart-store](#cart-store)                        |                                            |                                           |
+|                                                  |                                            |                                           |
+|                                                  |                                            |                                           |
 | **Other Components**                             |                                            |                                           |
 | [accordion-group](#accordion-group)              |                                            |                                           |
 | [announcement-bar](#announcement-bar)            |                                            |                                           |
