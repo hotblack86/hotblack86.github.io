@@ -1,7 +1,7 @@
 # Index
 
 | **Cart Components**                              | **Product Components**                     | **Variant Components**                    |
-|--------------------------------------------------|--------------------------------------------|-------------------------------------------|
+|--------------------------------                  |---------------------------------           |--------------------------------           |
 | [cart-free-shipping-bar](#cart-free-shipping-bar) | [product-card](#product-card)              | [variant-mixed-inputs](#variant-mixed-inputs) |
 | [cart-gift-wrapping-banner](#cart-gift-wrapping-banner) | [product-card-spinner](#product-card-spinner) | [variant-radios](#variant-radios)         |
 | [cart-gift-wrapping-message](#cart-gift-wrapping-message) | [product-card-swatches](#product-card-swatches) | [variant-selects](#variant-selects)       |
@@ -15,8 +15,8 @@
 | [cart-spinner](#cart-spinner)                    |                                            |                                           |
 | [cart-store](#cart-store)                        |                                            |                                           |
 |                                                  |                                            |                                           |
-|                                                  |                                            |                                           |
 | **Other Components**                             |                                            |                                           |
+|--------------------------------                  |                                            |                                           |
 | [accordion-group](#accordion-group)              |                                            |                                           |
 | [announcement-bar](#announcement-bar)            |                                            |                                           |
 | [back-to-top-button](#back-to-top-button)        |                                            |                                           |
