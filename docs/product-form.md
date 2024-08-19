@@ -13,9 +13,6 @@ notify-on-add
 redirect-on-add="{{ routes.cart_url }}"
 {% endunless %}
 >
-{% form 'product', product, class: 'product-form', id: form_id %}
-...
-{% endform %}
 </product-form>
 ```
 
