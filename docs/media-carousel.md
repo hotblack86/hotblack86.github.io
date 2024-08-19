@@ -31,7 +31,7 @@ media-gallery__arrow--prev
 js-carousel-prev
 "
 >
-{%- render 'icons-theme', icon: 'chevron, additional_classes: 'icon--left' -%}
+
 </button>
 <button
 class="
@@ -40,7 +40,7 @@ media-gallery__arrow--next
 js-carousel-next
 "
 >
-{%- render 'icons-theme', icon: 'chevron -%}
+
 </button>
 
 <!-- Virtual slides -->
