@@ -48,8 +48,6 @@ data-target-id="video-gallery-slide--{{ block.id }}"
    >
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
    <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
-     {%- assign icon_title = 'sections.video.play_label' | t -%}
-     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
@@ -73,8 +71,6 @@ data-target-id="video-gallery-slide--2"
    >
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
    <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
-     {%- assign icon_title = 'sections.video.play_label' | t -%}
-     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
@@ -98,8 +94,6 @@ data-target-id="video-gallery-slide--{{ block.id }}"
    >
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
    <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
-     {%- assign icon_title = 'sections.video.play_label' | t -%}
-     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
