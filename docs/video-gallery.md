@@ -16,35 +16,16 @@ A custom element that displays a collection of videos in a video gallery.
  class="home-video__stage-video is-active"
  id="video-gallery-slide--1"
 >
- {% render 'video-player',
-   id: 'video-player-1',
-   video_type: "youtube",
-   external_video_id: "1234567789",
-   poster_image: preview_image_object,
-   poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
- %}
 </video-gallery-slide>
 <video-gallery-slide
  class="home-video__stage-video"
  id="video-gallery-slide--2"
 >
- {% render 'video-player',
-   id: 'video-player-2',
-   video_type: "vimeo",
-   external_video_id: "1234567789",
-   poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
- %}
 </video-gallery-slide>
 <video-gallery-slide
  class="home-video__stage-video"
  id="video-gallery-slide--3"
 >
- {% render 'video-player',
-   id: 'video-player-1',
-   video_type: 'html5',
-   video: video,
-   poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
- %}
 </video-gallery-slide>
 </div>
 </div>

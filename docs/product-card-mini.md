@@ -28,9 +28,17 @@ style="padding-bottom:{{ image_container_bottom_padding }}">
  <div class="product-card__media product-card__media--hover-image">
    <product-card-secondary-image-placeholder
      class="product-card__img-hover hover-enabled">
-     {% render 'image', image: secondary_image, additional_classes: 'product-card__img-hover hover-enabled' %}
+     <div class="product-card__img-hover-placeholder"></div>
+     <div class="product-card__img-hover-image"></div>
    </product-card-secondary-image-placeholder>
-   {% render 'image', image: image, additional_classes: 'product-card__img js-product-card-image' %}
+   <div class="product-card__img-container">
+     <img
+       class="product-card__img"
+       src="{{ image }}"
+       alt="{{ title }}"
+       loading="lazy"
+     >
+   </div>
  </div>
 </a>
 </div>
@@ -41,7 +49,7 @@ style="padding-bottom:{{ image_container_bottom_padding }}">
 <product-card-title>{{ current_product.title }}</product-card-title>
 </h3>
 <product-card-price class="product-card__price">
-{% render 'product-price', product: current_product %}
+<span class="product-card__price-current">{{ current_price | money_format }}</span>
 </product-card-price>
 <product-card-button class="product-card-btn">
 <button type="button" class="link" disabled="disabled">{{ 'products.product.sold_out' | t }}</button>

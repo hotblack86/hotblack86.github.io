@@ -41,7 +41,7 @@ class="popup__close"
 aria-label="{{ 'layout.drawers.close' | t }}"
 data-a11y-dialog-hide
 >
-{% render 'icons-theme', icon: 'close' %}
+<i class="icon icon--close-l"></i>
 </button>
 ...
 </div>

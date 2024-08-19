@@ -26,7 +26,7 @@ class="search-page__form-input"
 aria-label="{{ 'general.search.placeholder' | t }}"
 >
 <button type="submit" class="search-page__form-submit" aria-label="{{ 'general.search.submit' | t }}">
-{% render 'icons-theme', icon: 'search' %}
+<i class="icon icon--search"></i>
 </button>
 </div>
 </form>

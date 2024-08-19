@@ -13,10 +13,10 @@ Controls the staged action state.
 {{ 'products.product.add_to_cart' | t }}
 </staged-action-text>
 <staged-action-tick class="staged-action__tick">
-{% render 'icons-theme', icon: 'check %}
+<i class="icon icon--check"></i>
 </staged-action-tick>
 <staged-action-spinner class="staged-action__spinner">
-{% render 'theme-spinner' %}
+<i class="icon icon--spinner"></i>
 </staged-action-spinner>
 </staged-action>
 ```

@@ -15,7 +15,7 @@ role="button"
 tabindex="0"
 align-right
 >
-{% render 'icons-theme', icon: 'chevron', additional_classes: 'back-to-top-button__icon icon--up' %}
+<i class="icon icon--arrow-up"></i>
 <span class="visually-hidden">Back to top</span>
 </back-to-top-button>
 ```
