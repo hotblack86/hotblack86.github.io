@@ -31,7 +31,7 @@ media-gallery__arrow--prev
 js-carousel-prev
 "
 >
-<i class="icon icon--left"></i>
+{%- render 'icons-theme', icon: 'chevron, additional_classes: 'icon--left' -%}
 </button>
 <button
 class="
@@ -40,7 +40,7 @@ media-gallery__arrow--next
 js-carousel-next
 "
 >
-<i class="icon icon--right"></i>
+{%- render 'icons-theme', icon: 'chevron -%}
 </button>
 
 <!-- Virtual slides -->
@@ -52,20 +52,20 @@ js-carousel-next
 
 ## Attributes
 
-| Attribute             | Type      | Description                                      |
-|-----------------------|-----------|--------------------------------------------------|
-| `data-auto-height`    | `Boolean` | Enable auto height                               |
-| `data-autoplay`       | `Number`  | Enable autoplay with provided delay value        |
-| `data-breakpoint-max` | `String`  | Only enable from the breakpoint ('phab', 'tab', 'desk') |
-| `data-breakpoint-min` | `String`  | Only enable up to the breakpoint ('phab', 'tab', 'desk') |
-| `data-fade`           | `Boolean` | Enable fade effect                               |
-| `data-initial-slide`  | `Number`  | Initial slide                                    |
-| `data-loop`           | `Boolean` | Enable loop                                      |
-| `data-navigation`     | `Boolean` | Enable navigation                                |
-| `data-pagination`     | `Boolean` | Enable bullets pagination                        |
-| `data-space-between`  | `Number`  | Space between slides (Default: 30px)             |
-| `data-speed`          | `Number`  | Animation speed (Default: 200ms)                 |
-| `data-virtual`        | `Boolean` | Enable virtual slides (element with the class '.js-slides' has to be present inside the container) |
+| Attribute             | Description                                      |
+|-----------------------|--------------------------------------------------|
+| `data-auto-height`    | Enable auto height                               |
+| `data-autoplay`       | Enable autoplay with provided delay value        |
+| `data-breakpoint-max` | Only enable from the breakpoint ('phab', 'tab', 'desk') |
+| `data-breakpoint-min` | Only enable up to the breakpoint ('phab', 'tab', 'desk') |
+| `data-fade`           | Enable fade effect                               |
+| `data-initial-slide`  | Initial slide                                    |
+| `data-loop`           | Enable loop                                      |
+| `data-navigation`     | Enable navigation                                |
+| `data-pagination`     | Enable bullets pagination                        |
+| `data-space-between`  | Space between slides (Default: 30px)             |
+| `data-speed`          | Animation speed (Default: 200ms)                 |
+| `data-virtual`        | Enable virtual slides (element with the class '.js-slides'<br />has to be present inside the container) |
 
 ## Properties
 
@@ -90,9 +90,9 @@ js-carousel-next
 
 ## Events
 
-| Event                                    | Type     | Description                                  |
-|------------------------------------------|----------|----------------------------------------------|
-| `on:media-carousel:before-slide-change`  | `Object` | Event fired before a slide change            |
-| `on:media-carousel:init`                 | `Object` | Event fired when the carousel is initialized |
-| `on:media-carousel:slide-change`         | `Object` | Event fired when a slide is changed          |
-| `on:media-carousel:slide-transition-end` | `Object` | Event fired after a slide transition ends    |
+| Event                                    | Type     | Description                         |
+|------------------------------------------|----------|-------------------------------------|
+| `on:media-carousel:before-slide-change`  | `Object` | Before media carousel slide change  |
+| `on:media-carousel:init`                 | `Object` | Media carousel initialized          |
+| `on:media-carousel:slide-change`         | `Object` | Media carousel slide changed        |
+| `on:media-carousel:slide-transition-end` | `Object` | Media carousel slide transition end |

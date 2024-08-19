@@ -28,20 +28,18 @@ class="popup__close"
 aria-label="{{ 'layout.drawers.close' | t }}"
 data-a11y-dialog-hide
 >
-<i class="icon icon--close-l"></i>
+{% render 'icons-theme', icon: 'close' %}
 </button>
 <div
 class="popup__content"
 role="document"
 >
-{% raw %}
 {% render 'video-player',
 id: video_player_id,
 video_type: 'html5',
 video: video_file,
 poster_image_sizes: '(min-width: 990px) 990px, calc(100vw - 36px)'
 %}
-{% endraw %}
 </div>
 </div>
 </video-dialog>

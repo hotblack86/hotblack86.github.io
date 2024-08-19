@@ -2,6 +2,8 @@
 
 Video gallery
 
+A custom element that displays a collection of videos in a video gallery.
+
 ## Example
 
 ```html
@@ -14,7 +16,6 @@ Video gallery
  class="home-video__stage-video is-active"
  id="video-gallery-slide--1"
 >
-{% raw %}
  {% render 'video-player',
    id: 'video-player-1',
    video_type: "youtube",
@@ -22,33 +23,28 @@ Video gallery
    poster_image: preview_image_object,
    poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
  %}
- {% endraw %}
 </video-gallery-slide>
 <video-gallery-slide
  class="home-video__stage-video"
  id="video-gallery-slide--2"
 >
-{% raw %}
  {% render 'video-player',
    id: 'video-player-2',
    video_type: "vimeo",
    external_video_id: "1234567789",
    poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
  %}
- {% endraw %}
 </video-gallery-slide>
 <video-gallery-slide
  class="home-video__stage-video"
  id="video-gallery-slide--3"
 >
-{% raw %}
  {% render 'video-player',
    id: 'video-player-1',
    video_type: 'html5',
    video: video,
    poster_image_sizes: '(min-width: 1200px) 1200px, calc(100vw - 36px)'
  %}
- {% endraw %}
 </video-gallery-slide>
 </div>
 </div>
@@ -70,9 +66,9 @@ data-target-id="video-gallery-slide--{{ block.id }}"
      loading="lazy"
    >
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
-   <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center icon-fallback">
-     <i class="icon icon--play" aria-hidden="true"></i>
-     <span class="icon-fallback__text">{{ 'sections.video.play_label' | t }}</span>
+   <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
+     {%- assign icon_title = 'sections.video.play_label' | t -%}
+     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
@@ -95,9 +91,9 @@ data-target-id="video-gallery-slide--2"
      style="opacity: 0"
    >
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
-   <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center icon-fallback">
-     <i class="icon icon--play" aria-hidden="true"></i>
-     <span class="icon-fallback__text">{{ 'sections.video.play_label' | t }}</span>
+   <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
+     {%- assign icon_title = 'sections.video.play_label' | t -%}
+     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
@@ -117,11 +113,12 @@ data-target-id="video-gallery-slide--{{ block.id }}"
      alt="Video 3 trigger image"
      loading="lazy"
      width="300"
+     height="{{ 300 | divided_by: video_file.preview_image.aspect_ratio | round }}"
    >
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
-   <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center icon-fallback">
-     <i class="icon icon--play" aria-hidden="true"></i>
-     <span class="icon-fallback__text">{{ 'sections.video.play_label' | t }}</span>
+   <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
+     {%- assign icon_title = 'sections.video.play_label' | t -%}
+     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
@@ -141,8 +138,6 @@ data-target-id="video-gallery-slide--{{ block.id }}"
 
 # video-gallery-thumbnail
 
-## Methods
+Video Gallery Thumbnail
 
-| Method                  | Type                |
-|-------------------------|---------------------|
-| `#updateVimeoThumbnail` | `(): Promise<void>` |
+A custom element that handles the display of a Vimeo video thumbnail in a video gallery.

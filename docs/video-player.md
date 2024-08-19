@@ -18,9 +18,7 @@ sizes: sizes,
 widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 }}
 </video-poster>
-{% raw %}
 {% render 'theme-spinner', tag: 'video-loading-indicator', hidden: true %}
-{% endraw %}
 <video-element></video-element>
 <template>
 <div id="{{ section.id | append: '--' | append: media.id }}" video-element data-{{- media.host -}}-id="{{ media.external_id }}"></div>
@@ -46,14 +44,13 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 
 ## Methods
 
-| Method               | Type                                             | Description           |
-|----------------------|--------------------------------------------------|-----------------------|
-| `#updateVimeoPoster` | `(): Promise<void>`                              |                       |
-| `loadContent`        | `(): VideoPlayer`                                | Load video content    |
-| `off`                | `(type: any, handler: any, options: any): VideoPlayer` | Remove event listener |
-| `on`                 | `(type: any, handler: any, options: any): VideoPlayer` | Add event listener    |
-| `pause`              | `(): VideoPlayer`                                | Pause video           |
-| `play`               | `(): VideoPlayer`                                | Play video            |
+| Method        | Type                                             | Description                                      |
+|---------------|--------------------------------------------------|--------------------------------------------------|
+| `loadContent` | `(): VideoPlayer`                                | Load video content                               |
+| `off`         | `(type: string, handler: Function, options?: string): VideoPlayer` | Remove event listener<br /><br />**type**: Event type<br />**handler**: Event handler<br />**options**: Event options |
+| `on`          | `(type: string, handler: Function, options?: string): VideoPlayer` | Add event listener<br /><br />**type**: Event type<br />**handler**: Event handler<br />**options**: Event options |
+| `pause`       | `(): VideoPlayer`                                | Pause video                                      |
+| `play`        | `(): VideoPlayer`                                | Play video                                       |
 
 ## Events
 

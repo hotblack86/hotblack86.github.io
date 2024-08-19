@@ -28,6 +28,7 @@
 | `#render`                       | `(): void`                        |
 | `#renderError`                  | `(errorText?: string): void`      |
 | `#renderTotalPriceAndDiscounts` | `(): void`                        |
+| `#runPostRenderFunctions`       | `(): void`                        |
 | `#setImage`                     | `(srcsetWidths?: number[]): void` |
 | `#toggleSpinner`                | `(visible?: boolean): void`       |
 | `#updateSkeleton`               | `(): void`                        |
@@ -48,7 +49,7 @@
 | `#renderDiscounts` | `(): void` |
 
 
-# cart-textarea
+# cart-text-input
 
 ## Properties
 
@@ -65,9 +66,6 @@
 
 
 # cart-note
-
-
-# cart-spinner
 
 
 # cart-terms
@@ -106,7 +104,6 @@
 
 ## Methods
 
-| Method        | Type                                             |
-|---------------|--------------------------------------------------|
-| `#enable`     | `(e: any): Promise<void>`                        |
-| `#setIsDoing` | `(isDoing?: boolean, error?: boolean): Promise<any>` |
+| Method    | Type                      |
+|-----------|---------------------------|
+| `#enable` | `(e: any): Promise<void>` |

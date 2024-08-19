@@ -44,7 +44,7 @@ unsubscribe();
 |------------------------------|--------------------------------------------------|--------------------------------------------------|
 | `#init`                      | `(): void`                                       |                                                  |
 | `add`                        | `(variants: any): Promise<any>`                  | Add variant(s) to cart<br /><br />**undefined**: undefined |
-| `change`                     | `(key: string, quantity?: number \| undefined): Promise<any>` | Change cart line item<br /><br />**key**: Line item unique key<br />**quantity**: New quantity of line item |
+| `change`                     | `({ id, quantity, properties }: CartChange): Promise<any>` | Change cart line item<br /><br />**requestBody**: Cart change request body |
 | `clear`                      | `(): Promise<any>`                               | Clear the shopping cart                          |
 | `disableCartRecommendations` | `(): Promise<void>`                              | Disable cart recommendations                     |
 | `enableCartRecommendations`  | `(intent?: string \| undefined): Promise<void>`  | Enable cart recommendations<br /><br />**intent**: Recommendations intent ("related" or "complementary") |
@@ -53,6 +53,7 @@ unsubscribe();
 | `resetLatestAddedProduct`    | `(): Promise<void>`                              | Reset latest added product in the store          |
 | `resetVariantsBeingAdded`    | `(id?: string): Promise<void>`                   | Reset variants being added<br /><br />**id**: Variant id (if not provided, all are reset) |
 | `setGiftWrapping`            | `(enable?: boolean \| undefined): Promise<any>`  | Enable or disable gift wrapping<br /><br />**enable**: undefined |
+| `setState`                   | `(field: string, value: string): void`           | Set store field's value<br /><br />**field**: field name to set<br />**value**: value to set |
 | `subscribe`                  | `(callback: CartStore    ~subscribeCallback): function(): void` | Subscribe to store changes<br /><br />**callback**: Callback function |
 | `syncGiftWrapping`           | `(): Promise<void>`                              | Sync gift wrapping data with store settings      |
 | `updateCartNote`             | `(note?: string \| undefined): Promise<any>`     | Update cart note<br /><br />**note**: Cart note  |

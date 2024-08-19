@@ -1,7 +1,4 @@
 # localize-details-disclosure
 
-## Methods
-
-| Method         | Type             |
-|----------------|------------------|
-| `#handleClick` | `(e: any): void` |
+A custom element that extends DetailsDisclosure to handle localization
+details disclosure with form interaction.
