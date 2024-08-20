@@ -3,10 +3,248 @@ The following documents all theme web components using web-component-analyzer CL
 View the documentation oh Github Pages - https://hotblack86.github.io/
 
 
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [accordion](#accordion)
+   * [Properties](#properties)
+   * [Methods](#methods)
+   * [Events](#events)
+- [accordion-group](#accordion-group)
+   * [Attributes](#attributes)
+   * [Methods](#methods-1)
+- [animations](#animations)
+   * [Examples](#examples)
+   * [Methods](#methods-2)
+- [announcement-bar](#announcement-bar)
+   * [Example](#example)
+   * [Attributes](#attributes-1)
+   * [Methods](#methods-3)
+   * [Events](#events-1)
+   * [CSS Custom Properties](#css-custom-properties)
+- [back-to-top-button](#back-to-top-button)
+   * [Example](#example-1)
+   * [Properties](#properties-1)
+   * [Methods](#methods-4)
+   * [Events](#events-2)
+- [interactive-cart](#interactive-cart)
+   * [Methods](#methods-5)
+- [cart-items](#cart-items)
+- [cart-item](#cart-item)
+   * [Methods](#methods-6)
+- [discount-list](#discount-list)
+   * [Properties](#properties-2)
+   * [Methods](#methods-7)
+- [cart-text-input](#cart-text-input)
+   * [Properties](#properties-3)
+- [cart-gift-wrapping-message](#cart-gift-wrapping-message)
+- [cart-note](#cart-note)
+- [cart-terms](#cart-terms)
+   * [Methods](#methods-8)
+- [cart-notification](#cart-notification)
+   * [Methods](#methods-9)
+- [cart-quantity-info](#cart-quantity-info)
+   * [Properties](#properties-4)
+- [cart-gift-wrapping-banner](#cart-gift-wrapping-banner)
+   * [Methods](#methods-10)
+- [free-shipping-bar](#free-shipping-bar)
+   * [Methods](#methods-11)
+- [cart-link](#cart-link)
+   * [Properties](#properties-5)
+- [cart-recommendations](#cart-recommendations)
+   * [Methods](#methods-12)
+- [cart-store](#cart-store)
+   * [Examples](#examples-1)
+   * [Methods](#methods-13)
+   * [Events](#events-3)
+- [deferred-media](#deferred-media)
+   * [Methods](#methods-14)
+- [details-disclosure](#details-disclosure)
+   * [Properties](#properties-6)
+   * [Methods](#methods-15)
+- [drawer-menu](#drawer-menu)
+   * [Example](#example-2)
+   * [Methods](#methods-16)
+- [dynamic-button](#dynamic-button)
+   * [Example](#example-3)
+- [dynamic-product-search](#dynamic-product-search)
+   * [Example](#example-4)
+   * [Attributes](#attributes-2)
+   * [Methods](#methods-17)
+   * [Events](#events-4)
+- [filters-dialog](#filters-dialog)
+   * [Attributes](#attributes-3)
+   * [Methods](#methods-18)
+- [gift-card-recipient](#gift-card-recipient)
+   * [Properties](#properties-7)
+   * [Methods](#methods-19)
+- [header-container](#header-container)
+   * [Attributes](#attributes-4)
+- [header-details-disclosure](#header-details-disclosure)
+   * [Attributes](#attributes-5)
+   * [Methods](#methods-20)
+- [image-compare](#image-compare)
+   * [Example](#example-5)
+   * [Attributes](#attributes-6)
+   * [CSS Custom Properties](#css-custom-properties-1)
+- [image-skeleton](#image-skeleton)
+   * [Example](#example-6)
+   * [Attributes](#attributes-7)
+   * [Methods](#methods-21)
+- [interactive-map](#interactive-map)
+   * [Attributes](#attributes-8)
+- [items-scroll](#items-scroll)
+   * [Example](#example-7)
+   * [Attributes](#attributes-9)
+   * [Properties](#properties-8)
+   * [Methods](#methods-22)
+- [lazy-video](#lazy-video)
+- [localize-details-disclosure](#localize-details-disclosure)
+- [maps-with-details](#maps-with-details)
+- [media-carousel](#media-carousel)
+   * [Example](#example-8)
+   * [Attributes](#attributes-10)
+   * [Properties](#properties-9)
+   * [Methods](#methods-23)
+   * [Events](#events-5)
+- [media-gallery](#media-gallery)
+   * [Methods](#methods-24)
+- [modal-dialog](#modal-dialog)
+   * [Example](#example-9)
+   * [Properties](#properties-10)
+   * [Methods](#methods-25)
+   * [Events](#events-6)
+   * [CSS Custom Properties](#css-custom-properties-2)
+- [nested-menu](#nested-menu)
+   * [Properties](#properties-11)
+   * [Methods](#methods-26)
+- [pickup-availability](#pickup-availability)
+   * [Example](#example-10)
+   * [Attributes](#attributes-11)
+   * [Methods](#methods-27)
+- [popup-dialog](#popup-dialog)
+   * [Example](#example-11)
+   * [Attributes](#attributes-12)
+   * [Properties](#properties-12)
+   * [Methods](#methods-28)
+   * [Events](#events-7)
+   * [CSS Custom Properties](#css-custom-properties-3)
+- [predictive-search](#predictive-search)
+   * [Example](#example-12)
+   * [Attributes](#attributes-13)
+   * [Properties](#properties-13)
+   * [Methods](#methods-29)
+- [price-range](#price-range)
+   * [Example](#example-13)
+- [product-card-spinner](#product-card-spinner)
+   * [Properties](#properties-14)
+- [product-card-swatches](#product-card-swatches)
+   * [Properties](#properties-15)
+   * [Methods](#methods-30)
+- [product-card-mini](#product-card-mini)
+   * [Example](#example-14)
+   * [Attributes](#attributes-14)
+   * [Properties](#properties-16)
+   * [Methods](#methods-31)
+- [product-card](#product-card)
+   * [Example](#example-15)
+   * [Attributes](#attributes-15)
+   * [Properties](#properties-17)
+   * [Methods](#methods-32)
+- [product-form](#product-form)
+   * [Example](#example-16)
+   * [Attributes](#attributes-16)
+   * [Methods](#methods-33)
+- [product-interactive-options](#product-interactive-options)
+   * [Example](#example-17)
+   * [Methods](#methods-34)
+- [product-model](#product-model)
+   * [Example](#example-18)
+   * [Methods](#methods-35)
+   * [Events](#events-8)
+- [product-recommendations](#product-recommendations)
+   * [Example](#example-19)
+   * [Attributes](#attributes-17)
+   * [Properties](#properties-18)
+- [product-single](#product-single)
+   * [Properties](#properties-19)
+   * [Methods](#methods-36)
+- [quantity-input](#quantity-input)
+   * [Example](#example-20)
+   * [Attributes](#attributes-18)
+   * [Properties](#properties-20)
+   * [Methods](#methods-37)
+   * [Events](#events-9)
+- [quick-shop](#quick-shop)
+   * [Example](#example-21)
+   * [Attributes](#attributes-19)
+   * [Properties](#properties-21)
+   * [Methods](#methods-38)
+   * [Events](#events-10)
+- [recent-searches](#recent-searches)
+   * [Example](#example-22)
+   * [Attributes](#attributes-20)
+- [scroll-to-target](#scroll-to-target)
+   * [Example](#example-23)
+   * [Attributes](#attributes-21)
+- [scrolling-marquee](#scrolling-marquee)
+   * [Example](#example-24)
+   * [Attributes](#attributes-22)
+   * [Properties](#properties-22)
+   * [Methods](#methods-39)
+- [search-form](#search-form)
+   * [Example](#example-25)
+   * [Attributes](#attributes-23)
+   * [Properties](#properties-23)
+   * [Methods](#methods-40)
+- [search-modal](#search-modal)
+   * [Example](#example-26)
+- [staged-action](#staged-action)
+   * [Example](#example-27)
+   * [Methods](#methods-41)
+- [sticky-scroll](#sticky-scroll)
+   * [Attributes](#attributes-24)
+- [tabbed-content](#tabbed-content)
+   * [Methods](#methods-42)
+- [tab-triggers](#tab-triggers)
+   * [Properties](#properties-24)
+- [variant-selects](#variant-selects)
+   * [Attributes](#attributes-25)
+   * [Methods](#methods-43)
+   * [Events](#events-11)
+- [variant-radios](#variant-radios)
+   * [Attributes](#attributes-26)
+   * [Methods](#methods-44)
+   * [Events](#events-12)
+- [variant-swatches](#variant-swatches)
+   * [Attributes](#attributes-27)
+   * [Methods](#methods-45)
+- [variant-mixed-inputs](#variant-mixed-inputs)
+   * [Attributes](#attributes-28)
+   * [Methods](#methods-46)
+   * [Events](#events-13)
+- [video-dialog](#video-dialog)
+   * [Example](#example-28)
+   * [Methods](#methods-47)
+- [video-gallery](#video-gallery)
+   * [Example](#example-29)
+   * [Methods](#methods-48)
+- [video-gallery-thumbnail](#video-gallery-thumbnail)
+- [video-player](#video-player)
+   * [Example](#example-30)
+   * [Attributes](#attributes-29)
+   * [Properties](#properties-25)
+   * [Methods](#methods-49)
+   * [Events](#events-14)
+
+<!-- TOC end -->
+
+
+<!-- TOC --><a name="accordion"></a>
 # accordion
 
 Accordion class to handle the opening and closing of a single accordion item.
 
+<!-- TOC --><a name="properties"></a>
 ## Properties
 
 | Property      | Type         | Default |
@@ -18,6 +256,7 @@ Accordion class to handle the opening and closing of a single accordion item.
 | `isExpanding` | `boolean`    | false   |
 | `summary`     | `any \| any` |         |
 
+<!-- TOC --><a name="methods"></a>
 ## Methods
 
 | Method              | Type                    | Description                                      |
@@ -28,6 +267,7 @@ Accordion class to handle the opening and closing of a single accordion item.
 | `open`              | `(): void`              | Opens the accordion.                             |
 | `shrink`            | `(): void`              | Initiates the closing animation of the accordion. |
 
+<!-- TOC --><a name="events"></a>
 ## Events
 
 | Event                    | Type               | Description                                    |
@@ -39,10 +279,12 @@ Accordion class to handle the opening and closing of a single accordion item.
 | `on:accordion:opening`   | `CustomEvent<any>` | Fires when the accordion begins to open.       |
 
 
+<!-- TOC --><a name="accordion-group"></a>
 # accordion-group
 
 AccordionGroup class to manage multiple accordions within a group.
 
+<!-- TOC --><a name="attributes"></a>
 ## Attributes
 
 | Attribute    | Type      | Description                                      |
@@ -50,6 +292,7 @@ AccordionGroup class to manage multiple accordions within a group.
 | `alwaysOpen` | `boolean` | If true, ensures at least one accordion is always open. |
 | `singleOpen` | `boolean` | If true, only one accordion in the group can be open at a time. |
 
+<!-- TOC --><a name="methods-1"></a>
 ## Methods
 
 | Method  | Type                 | Description                                      |
@@ -58,6 +301,7 @@ AccordionGroup class to manage multiple accordions within a group.
 | `open`  | `(id: string): void` | Opens the accordion with the given ID.<br /><br />**id**: The ID of the accordion to open. |
 
 
+<!-- TOC --><a name="animations"></a>
 # animations
 
 Animations
@@ -82,6 +326,7 @@ omitting 'data-animation', like so:
 ]
 When the animations finish, `js-animation-done` class is added to the element
 
+<!-- TOC --><a name="examples"></a>
 ## Examples
 
 ```html
@@ -137,6 +382,7 @@ data-animation="{{  animation_settings | escape }}"
 </div>
 ```
 
+<!-- TOC --><a name="methods-2"></a>
 ## Methods
 
 | Method               | Type                            | Description                                      |
@@ -147,6 +393,7 @@ data-animation="{{  animation_settings | escape }}"
 | `setupSingle`        | `(element: Element): void`      | Set up single animation<br /><br />**element**: Element to animate |
 
 
+<!-- TOC --><a name="announcement-bar"></a>
 # announcement-bar
 
 Announcement bar web component.
@@ -156,6 +403,7 @@ The announcement bar shows important messages or promotions and can cycle throug
 Users can navigate the carousel manually or automatically with autoplay.
 It can be configured to be dismissible and adapts to different screen sizes.
 
+<!-- TOC --><a name="example"></a>
 ## Example
 
 ```html
@@ -250,6 +498,7 @@ style="background-color: #fff;"
 </announcement-bar>
 ```
 
+<!-- TOC --><a name="attributes-1"></a>
 ## Attributes
 
 | Attribute        | Type      | Description                                      |
@@ -259,6 +508,7 @@ style="background-color: #fff;"
 | `dismissible`    | `boolean` | Makes the announcement bar dismissible by the user. |
 | `static`         | `boolean` | If set, the carousel will be disabled on desktop. |
 
+<!-- TOC --><a name="methods-3"></a>
 ## Methods
 
 | Method                          | Type                                             | Description                                      |
@@ -285,6 +535,7 @@ style="background-color: #fff;"
 | `stopAutoplay`                  | `(): void`                                       | Stop the autoplay feature of the carousel.       |
 | `stopInteractions`              | `(): void`                                       | Disable user interactions with the carousel.     |
 
+<!-- TOC --><a name="events-1"></a>
 ## Events
 
 | Event                            | Type                                             | Description                                   |
@@ -295,6 +546,7 @@ style="background-color: #fff;"
 | `on:popup:closed`                |                                                  | Fired when a popup dialog is closed.          |
 | `on:popup:opening`               |                                                  | Fired when a popup dialog is opened.          |
 
+<!-- TOC --><a name="css-custom-properties"></a>
 ## CSS Custom Properties
 
 | Property               | Description                                      |
@@ -307,11 +559,13 @@ style="background-color: #fff;"
 | `--text-transform`     | Text transform property for the announcement text. |
 
 
+<!-- TOC --><a name="back-to-top-button"></a>
 # back-to-top-button
 
 Custom element that displays a "Back to Top" button.
 The button appears when the user scrolls past the viewport height and scrolls the page back to the top when clicked.
 
+<!-- TOC --><a name="example-1"></a>
 ## Example
 
 ```html
@@ -329,6 +583,7 @@ align-right
 </back-to-top-button>
 ```
 
+<!-- TOC --><a name="properties-1"></a>
 ## Properties
 
 | Property           |
@@ -336,6 +591,7 @@ align-right
 | `scrollToTop`      |
 | `toggleVisibility` |
 
+<!-- TOC --><a name="methods-4"></a>
 ## Methods
 
 | Method             | Type       | Description                                      |
@@ -343,6 +599,7 @@ align-right
 | `scrollToTop`      | `(): void` | Scrolls to the top of the page smoothly or instantly. Dispatches a custom event when the button is clicked. |
 | `toggleVisibility` | `(): void` | Toggles the visibility of the button based on scroll position. The button is visible when the user has scrolled past the viewport height. |
 
+<!-- TOC --><a name="events-2"></a>
 ## Events
 
 | Event                           | Type               | Description                       |
@@ -350,8 +607,10 @@ align-right
 | `on:back-to-top-button:clicked` | `CustomEvent<any>` | Fired when the button is clicked. |
 
 
+<!-- TOC --><a name="interactive-cart"></a>
 # interactive-cart
 
+<!-- TOC --><a name="methods-5"></a>
 ## Methods
 
 | Method                 | Type                   |
@@ -365,11 +624,14 @@ align-right
 | `#updateFreeShipping`  | `(): void`             |
 
 
+<!-- TOC --><a name="cart-items"></a>
 # cart-items
 
 
+<!-- TOC --><a name="cart-item"></a>
 # cart-item
 
+<!-- TOC --><a name="methods-6"></a>
 ## Methods
 
 | Method                          | Type                              |
@@ -386,14 +648,17 @@ align-right
 | `#updateSkeleton`               | `(): void`                        |
 
 
+<!-- TOC --><a name="discount-list"></a>
 # discount-list
 
+<!-- TOC --><a name="properties-2"></a>
 ## Properties
 
 | Property | Attribute |
 |----------|-----------|
 | `items`  | `items`   |
 
+<!-- TOC --><a name="methods-7"></a>
 ## Methods
 
 | Method             | Type       |
@@ -401,8 +666,10 @@ align-right
 | `#renderDiscounts` | `(): void` |
 
 
+<!-- TOC --><a name="cart-text-input"></a>
 # cart-text-input
 
+<!-- TOC --><a name="properties-3"></a>
 ## Properties
 
 | Property      |
@@ -414,14 +681,18 @@ align-right
 | `value`       |
 
 
+<!-- TOC --><a name="cart-gift-wrapping-message"></a>
 # cart-gift-wrapping-message
 
 
+<!-- TOC --><a name="cart-note"></a>
 # cart-note
 
 
+<!-- TOC --><a name="cart-terms"></a>
 # cart-terms
 
+<!-- TOC --><a name="methods-8"></a>
 ## Methods
 
 | Method          | Type                                             |
@@ -431,8 +702,10 @@ align-right
 | `#validateForm` | `(e: any): void`                                 |
 
 
+<!-- TOC --><a name="cart-notification"></a>
 # cart-notification
 
+<!-- TOC --><a name="methods-9"></a>
 ## Methods
 
 | Method            | Type                              |
@@ -442,8 +715,10 @@ align-right
 | `#updateSkeleton` | `(): void`                        |
 
 
+<!-- TOC --><a name="cart-quantity-info"></a>
 # cart-quantity-info
 
+<!-- TOC --><a name="properties-4"></a>
 ## Properties
 
 | Property      | Type         |
@@ -452,8 +727,10 @@ align-right
 | `itemsCount`  | `any \| any` |
 
 
+<!-- TOC --><a name="cart-gift-wrapping-banner"></a>
 # cart-gift-wrapping-banner
 
+<!-- TOC --><a name="methods-10"></a>
 ## Methods
 
 | Method    | Type                      |
@@ -461,8 +738,10 @@ align-right
 | `#enable` | `(e: any): Promise<void>` |
 
 
+<!-- TOC --><a name="free-shipping-bar"></a>
 # free-shipping-bar
 
+<!-- TOC --><a name="methods-11"></a>
 ## Methods
 
 | Method                   | Type             |
@@ -473,8 +752,10 @@ align-right
 | `#update`                | `(): void`       |
 
 
+<!-- TOC --><a name="cart-link"></a>
 # cart-link
 
+<!-- TOC --><a name="properties-5"></a>
 ## Properties
 
 | Property     | Type         |
@@ -482,8 +763,10 @@ align-right
 | `itemsCount` | `any \| any` |
 
 
+<!-- TOC --><a name="cart-recommendations"></a>
 # cart-recommendations
 
+<!-- TOC --><a name="methods-12"></a>
 ## Methods
 
 | Method        | Type      |
@@ -491,12 +774,14 @@ align-right
 | `#createCard` | `(): any` |
 
 
+<!-- TOC --><a name="cart-store"></a>
 # cart-store
 
 Cart store
 
 Use this store to manage cart data and subscribe to changes
 
+<!-- TOC --><a name="examples-1"></a>
 ## Examples
 
 ```html
@@ -531,6 +816,7 @@ console.log(state.cart.item_count);
 unsubscribe();
 ```
 
+<!-- TOC --><a name="methods-13"></a>
 ## Methods
 
 | Method                       | Type                                             | Description                                      |
@@ -552,6 +838,7 @@ unsubscribe();
 | `updateCartNote`             | `(note?: string \| undefined): Promise<any>`     | Update cart note<br /><br />**note**: Cart note  |
 | `updateGiftWrappingMessage`  | `(message?: string \| undefined): Promise<any>`  | Update gift wrapping message<br /><br />**message**: Gift wrapping message |
 
+<!-- TOC --><a name="events-3"></a>
 ## Events
 
 | Event             | Type     | Description                         |
@@ -561,10 +848,12 @@ unsubscribe();
 | `on:cart:loading` | `Object` | Request started event               |
 
 
+<!-- TOC --><a name="deferred-media"></a>
 # deferred-media
 
 A custom element that defers loading media content until it is interacted with.
 
+<!-- TOC --><a name="methods-14"></a>
 ## Methods
 
 | Method        | Type                                   | Description                                      |
@@ -572,11 +861,13 @@ A custom element that defers loading media content until it is interacted with.
 | `loadContent` | `(focus?: boolean \| undefined): void` | Loads the media content into the element, and optionally focuses it.<br /><br />**focus**: Whether to focus the loaded media element. |
 
 
+<!-- TOC --><a name="details-disclosure"></a>
 # details-disclosure
 
 A custom element that manages the disclosure of content within a `details` element.
 It handles focus out and toggle events to control animations and visibility.
 
+<!-- TOC --><a name="properties-6"></a>
 ## Properties
 
 | Property            | Type         | Default              |
@@ -584,6 +875,7 @@ It handles focus out and toggle events to control animations and visibility.
 | `content`           | `any \| any` | "nextElementSibling" |
 | `mainDetailsToggle` | `any \| any` |                      |
 
+<!-- TOC --><a name="methods-15"></a>
 ## Methods
 
 | Method       | Type       | Description                                      |
@@ -593,10 +885,12 @@ It handles focus out and toggle events to control animations and visibility.
 | `onToggle`   | `(): void` | Handles the toggle event on the `details` element.<br />Plays or cancels animations based on whether the `details` element is open. |
 
 
+<!-- TOC --><a name="drawer-menu"></a>
 # drawer-menu
 
 Custom element representing a drawer menu with expandable panels and focus trapping.
 
+<!-- TOC --><a name="example-2"></a>
 ## Example
 
 ```html
@@ -633,6 +927,7 @@ Custom element representing a drawer menu with expandable panels and focus trapp
 </drawer-menu>
 ```
 
+<!-- TOC --><a name="methods-16"></a>
 ## Methods
 
 | Method                       | Type                                             | Description                                      |
@@ -649,12 +944,14 @@ Custom element representing a drawer menu with expandable panels and focus trapp
 | `setCurrentPanelId`          | `(): void`                                       | Sets the ID of the currently open panel, if any. |
 
 
+<!-- TOC --><a name="dynamic-button"></a>
 # dynamic-button
 
 Dynamic button component
 
 Used as the container with a placeholder for dynamic Shopify buttons
 
+<!-- TOC --><a name="example-3"></a>
 ## Example
 
 ```html
@@ -670,6 +967,7 @@ class="skeleton-text skeleton-text--inverse skeleton-text--small skeleton-text--
 ```
 
 
+<!-- TOC --><a name="dynamic-product-search"></a>
 # dynamic-product-search
 
 Dynamic product search
@@ -677,6 +975,7 @@ Dynamic product search
 A custom web component for handling dynamic product searches,
 including pagination, filtering, and URL updates.
 
+<!-- TOC --><a name="example-4"></a>
 ## Example
 
 ```html
@@ -689,6 +988,7 @@ including pagination, filtering, and URL updates.
 ></dynamic-product-search>
 ```
 
+<!-- TOC --><a name="attributes-2"></a>
 ## Attributes
 
 | Attribute                          | Type     | Default | Description                                      |
@@ -699,6 +999,7 @@ including pagination, filtering, and URL updates.
 | `data-update-url`                  | `string` | "true"  | Determines whether the URL should be updated when the collection changes. |
 | `data-url`                         | `string` |         | The base URL for the product search API.         |
 
+<!-- TOC --><a name="methods-17"></a>
 ## Methods
 
 | Method             | Type                                             | Description                                      |
@@ -709,6 +1010,7 @@ including pagination, filtering, and URL updates.
 | `updateLoading`    | `(isLoading?: boolean \| undefined): void`       | Updates the loading state of the component.<br /><br />**isLoading**: Indicates whether the component is in a loading state. |
 | `updateURL`        | `(query: string, title?: string): void`          | Updates the URL in the browser's history.<br /><br />**query**: The query string to append to the URL.<br />**title**: The title of the page. |
 
+<!-- TOC --><a name="events-4"></a>
 ## Events
 
 | Event                               | Type               | Description                                      |
@@ -718,17 +1020,20 @@ including pagination, filtering, and URL updates.
 | `on:dynamic-product-search:loading` | `CustomEvent<any>` | Dispatched when the product search starts loading. |
 
 
+<!-- TOC --><a name="filters-dialog"></a>
 # filters-dialog
 
 A custom element that extends `ModalDialog` to provide a modal dialog with filters.
 It initializes and destroys the dialog based on the viewport width and media query changes.
 
+<!-- TOC --><a name="attributes-3"></a>
 ## Attributes
 
 | Attribute                       | Type      | Description                |
 |---------------------------------|-----------|----------------------------|
 | `data-disable-modal-on-desktop` | `boolean` | Disables modal on desktop. |
 
+<!-- TOC --><a name="methods-18"></a>
 ## Methods
 
 | Method    | Type       | Description                                      |
@@ -737,12 +1042,14 @@ It initializes and destroys the dialog based on the viewport width and media que
 | `init`    | `(): void` | Initializes the dialog by setting ARIA attributes and CSS classes.<br />Calls the parent class's `init` method. |
 
 
+<!-- TOC --><a name="gift-card-recipient"></a>
 # gift-card-recipient
 
 A custom element that manages the activation of a fieldset based on a checkbox.
 When the checkbox is checked, it enables and reveals the associated fields.
 When unchecked, it disables and hides them.
 
+<!-- TOC --><a name="properties-7"></a>
 ## Properties
 
 | Property   | Type                  |
@@ -751,6 +1058,7 @@ When unchecked, it disables and hides them.
 | `fields`   | `NodeListOf<Element>` |
 | `fieldset` | `any \| any`          |
 
+<!-- TOC --><a name="methods-19"></a>
 ## Methods
 
 | Method             | Type       | Description                                      |
@@ -758,12 +1066,14 @@ When unchecked, it disables and hides them.
 | `activateFieldset` | `(): void` | Activates or deactivates the fieldset based on the checkbox's checked state.<br />Enables and reveals the fields if the checkbox is checked,<br />otherwise, disables and hides them. |
 
 
+<!-- TOC --><a name="header-container"></a>
 # header-container
 
 A custom element that manages the visibility and sticky behavior of a header
 based on scroll events. The header can be configured to stick to the top of
 the viewport and hide or show based on scroll direction.
 
+<!-- TOC --><a name="attributes-4"></a>
 ## Attributes
 
 | Attribute | Type      | Description                          |
@@ -771,17 +1081,20 @@ the viewport and hide or show based on scroll direction.
 | `sticky`  | `boolean` | Whether the header should be sticky. |
 
 
+<!-- TOC --><a name="header-details-disclosure"></a>
 # header-details-disclosure
 
 A custom element that extends DetailsDisclosure to manage header details
 with additional behaviors such as animations and responsive adjustments.
 
+<!-- TOC --><a name="attributes-5"></a>
 ## Attributes
 
 | Attribute                 | Type      | Description                                  |
 |---------------------------|-----------|----------------------------------------------|
 | `adjust-mega-menu-height` | `boolean` | If set, adjusts the height of the mega menu. |
 
+<!-- TOC --><a name="methods-20"></a>
 ## Methods
 
 | Method               | Type       | Description                                      |
@@ -794,12 +1107,14 @@ with additional behaviors such as animations and responsive adjustments.
 | `open`               | `(): void` | Opens the details element and adjusts content alignment and height if needed. |
 
 
+<!-- TOC --><a name="image-compare"></a>
 # image-compare
 
 Custom element for comparing images with a sliding effect.
 Allows users to adjust the exposure level of an image via a slider.
 Also includes an intersection observer to animate the slider when it enters the viewport.
 
+<!-- TOC --><a name="example-5"></a>
 ## Example
 
 ```html
@@ -841,6 +1156,7 @@ data-grow-thumb="true"
 </image-compare>
 ```
 
+<!-- TOC --><a name="attributes-6"></a>
 ## Attributes
 
 | Attribute          | Type      | Description                                 |
@@ -848,6 +1164,7 @@ data-grow-thumb="true"
 | `data-grow-thumb`  | `boolean` | If true, the thumb will grow when hovered.  |
 | `data-start-point` | `string`  | The initial exposure value as a percentage. |
 
+<!-- TOC --><a name="css-custom-properties-1"></a>
 ## CSS Custom Properties
 
 | Property                   | Description                              |
@@ -859,12 +1176,14 @@ data-grow-thumb="true"
 | `--thumb-border-color`     | The border color of the thumb.           |
 
 
+<!-- TOC --><a name="image-skeleton"></a>
 # image-skeleton
 
 Image Skeleton
 A custom web component that provides a skeleton loader for images to enhance loading performance.
 This component displays a placeholder while an image is loading, and only reveals the image once it has fully loaded.
 
+<!-- TOC --><a name="example-6"></a>
 ## Example
 
 ```html
@@ -883,6 +1202,7 @@ xmlns="http://www.w3.org/2000/svg"
 </image-skeleton>
 ```
 
+<!-- TOC --><a name="attributes-7"></a>
 ## Attributes
 
 | Attribute              | Type      | Description                                     |
@@ -890,6 +1210,7 @@ xmlns="http://www.w3.org/2000/svg"
 | `loaded`               | `boolean` | If true, the image has already been loaded.     |
 | `minimum-reveal-delay` | `number`  | The minimum delay before the image is revealed. |
 
+<!-- TOC --><a name="methods-21"></a>
 ## Methods
 
 | Method         | Type       | Description                                      |
@@ -898,11 +1219,13 @@ xmlns="http://www.w3.org/2000/svg"
 | `markAsLoaded` | `(): void` | Marks the skeleton loader as loaded and hides it.<br />Sets the 'loaded' and 'aria-hidden' attributes. |
 
 
+<!-- TOC --><a name="interactive-map"></a>
 # interactive-map
 
 A custom HTML element that displays an interactive Google Map with specified
 settings, including custom styles and a pin based on provided attributes.
 
+<!-- TOC --><a name="attributes-8"></a>
 ## Attributes
 
 | Attribute       | Type     | Description                                      |
@@ -913,6 +1236,7 @@ settings, including custom styles and a pin based on provided attributes.
 | `map-style`     | `string` | The style to be applied to the map.              |
 
 
+<!-- TOC --><a name="items-scroll"></a>
 # items-scroll
 
 Items scroll
@@ -923,6 +1247,7 @@ with support for pagination, navigation controls, and responsive design.
 This component automatically detects the number of items per page based on
 the container width, and adjusts navigation controls accordingly.
 
+<!-- TOC --><a name="example-7"></a>
 ## Example
 
 ```html
@@ -939,6 +1264,7 @@ cart-recommendations-content
 </items-scroll>
 ```
 
+<!-- TOC --><a name="attributes-9"></a>
 ## Attributes
 
 | Attribute                  | Type      | Description                                      |
@@ -949,6 +1275,7 @@ cart-recommendations-content
 | `mobile-counter-only`      | `boolean` | Displays only the navigation counter on mobile devices. |
 | `page-navigation-disabled` | `boolean` | Disables the page navigation controls.           |
 
+<!-- TOC --><a name="properties-8"></a>
 ## Properties
 
 | Property                                 | Attribute | Type              | Default | Description                                      |
@@ -970,6 +1297,7 @@ cart-recommendations-content
 | `scrollBarTrack`                         |           |                   |         |                                                  |
 | `snap`                                   | `snap`    | `string`          |         | Controls the scroll snapping behavior. Accepts 'start' or 'center'. |
 
+<!-- TOC --><a name="methods-22"></a>
 ## Methods
 
 | Method              | Type                                  | Description                                      |
@@ -978,28 +1306,33 @@ cart-recommendations-content
 | `smoothScrollItems` | `(position: number): Promise<number>` | Smoothly scrolls the items to a specified position.<br /><br />**position**: The target scroll position. |
 
 
+<!-- TOC --><a name="lazy-video"></a>
 # lazy-video
 
 A custom HTML element that lazily loads and plays video content
 when it becomes visible in the viewport.
 
 
+<!-- TOC --><a name="localize-details-disclosure"></a>
 # localize-details-disclosure
 
 A custom element that extends DetailsDisclosure to handle localization
 details disclosure with form interaction.
 
 
+<!-- TOC --><a name="maps-with-details"></a>
 # maps-with-details
 
 Custom HTML element that synchronizes a set of `<details>` elements with associated map media elements.
 When a specific `<details>` element is opened, it triggers the display of the corresponding map media.
 
 
+<!-- TOC --><a name="media-carousel"></a>
 # media-carousel
 
 Media carousel
 
+<!-- TOC --><a name="example-8"></a>
 ## Example
 
 ```html
@@ -1048,6 +1381,7 @@ js-carousel-next
 </media-carousel>
 ```
 
+<!-- TOC --><a name="attributes-10"></a>
 ## Attributes
 
 | Attribute             | Description                                      |
@@ -1065,6 +1399,7 @@ js-carousel-next
 | `data-speed`          | Animation speed (Default: 200ms)                 |
 | `data-virtual`        | Enable virtual slides (element with the class '.js-slides'<br />has to be present inside the container) |
 
+<!-- TOC --><a name="properties-9"></a>
 ## Properties
 
 | Property       | Modifiers | Type          | Description                 |
@@ -1073,6 +1408,7 @@ js-carousel-next
 | `index`        | readonly  | `number`      | Get the current index.      |
 | `initialized`  | readonly  | `boolean`     | Get the initialized status. |
 
+<!-- TOC --><a name="methods-23"></a>
 ## Methods
 
 | Method                    | Type                                             | Description                                      |
@@ -1086,6 +1422,7 @@ js-carousel-next
 | `start`                   | `(): MediaCarousel`                              | Start autoplay                                   |
 | `stop`                    | `(): MediaCarousel`                              | Stop autoplay                                    |
 
+<!-- TOC --><a name="events-5"></a>
 ## Events
 
 | Event                                    | Type     | Description                         |
@@ -1096,8 +1433,10 @@ js-carousel-next
 | `on:media-carousel:slide-transition-end` | `Object` | Media carousel slide transition end |
 
 
+<!-- TOC --><a name="media-gallery"></a>
 # media-gallery
 
+<!-- TOC --><a name="methods-24"></a>
 ## Methods
 
 | Method                               | Type                                             | Description                                      |
@@ -1115,6 +1454,7 @@ js-carousel-next
 | `goToSlide`                          | `(mediaId: any): void`                           |                                                  |
 
 
+<!-- TOC --><a name="modal-dialog"></a>
 # modal-dialog
 
 Modal component
@@ -1129,6 +1469,7 @@ up to open this element on click. Elements with the attribute
 `data-a11y-dialog-hide` inside the modal will be set up to close
 the modal on click.
 
+<!-- TOC --><a name="example-9"></a>
 ## Example
 
 ```html
@@ -1158,12 +1499,14 @@ data-a11y-dialog-hide
 </modal-dialog>
 ```
 
+<!-- TOC --><a name="properties-10"></a>
 ## Properties
 
 | Property | Modifiers | Type      | Description             |
 |----------|-----------|-----------|-------------------------|
 | `shown`  | readonly  | `boolean` | Get modal dialog status |
 
+<!-- TOC --><a name="methods-25"></a>
 ## Methods
 
 | Method           | Type                                             | Description                                      |
@@ -1181,6 +1524,7 @@ data-a11y-dialog-hide
 | `open`           | `(openElementAfterClose?: HTMLElement): Promise` | Open modal<br /><br />**openElementAfterClose**: Modal to open after this modal is closed |
 | `openInstantly`  | `(): void`                                       | Open modal instantly<br /><br />Opens modal instantly even if animations are set<br />to content element |
 
+<!-- TOC --><a name="events-6"></a>
 ## Events
 
 | Event              | Type               | Description            |
@@ -1190,6 +1534,7 @@ data-a11y-dialog-hide
 | `on:modal:opened`  | `CustomEvent<any>` | Modal finished opening |
 | `on:modal:opening` | `CustomEvent<any>` | Modal started opening  |
 
+<!-- TOC --><a name="css-custom-properties-2"></a>
 ## CSS Custom Properties
 
 | Property                   | Description                           |
@@ -1203,8 +1548,10 @@ data-a11y-dialog-hide
 | `--width`                  | Modal width (if placed right or left) |
 
 
+<!-- TOC --><a name="nested-menu"></a>
 # nested-menu
 
+<!-- TOC --><a name="properties-11"></a>
 ## Properties
 
 | Property           | Type               |
@@ -1215,6 +1562,7 @@ data-a11y-dialog-hide
 | `submenus`         | `array`            |
 | `tolerance`        | `string \| number` |
 
+<!-- TOC --><a name="methods-26"></a>
 ## Methods
 
 | Method                | Type                                  | Description                                      |
@@ -1229,6 +1577,7 @@ data-a11y-dialog-hide
 | `activate`            | `(row: any): void`                    | Activate a menu row.                             |
 
 
+<!-- TOC --><a name="pickup-availability"></a>
 # pickup-availability
 
 A custom web component that fetches and displays pickup availability for a given product variant.
@@ -1236,6 +1585,7 @@ A custom web component that fetches and displays pickup availability for a given
 This component checks for pickup availability based on the product variant ID and renders the appropriate information
 or an error message if the data cannot be fetched.
 
+<!-- TOC --><a name="example-10"></a>
 ## Example
 
 ```html
@@ -1266,6 +1616,7 @@ data-has-only-default-variant="false"
 </pickup-availability>
 ```
 
+<!-- TOC --><a name="attributes-11"></a>
 ## Attributes
 
 | Attribute                       | Type      | Description                                      |
@@ -1275,6 +1626,7 @@ data-has-only-default-variant="false"
 | `data-root-url`                 | `string`  | The root URL for fetching pickup availability.   |
 | `data-variant-id`               | `string`  | The ID of the product variant to fetch availability for. |
 
+<!-- TOC --><a name="methods-27"></a>
 ## Methods
 
 | Method               | Type                                    | Description                                      |
@@ -1285,6 +1637,7 @@ data-has-only-default-variant="false"
 | `renderPreview`      | `(sectionInnerHTML: HTMLElement): void` | Renders the availability preview or hides the component if no availability is found.<br /><br />**sectionInnerHTML**: The inner HTML of the fetched availability section. |
 
 
+<!-- TOC --><a name="popup-dialog"></a>
 # popup-dialog
 
 Popup dialog
@@ -1300,6 +1653,7 @@ will be set up to open this element on click. Elements with the attribute
 data-a11y-dialog-hide inside the popup will be set up to close
 the popup on click.
 
+<!-- TOC --><a name="example-11"></a>
 ## Example
 
 ```html
@@ -1336,6 +1690,7 @@ data-a11y-dialog-hide
 </popup-dialog>
 ```
 
+<!-- TOC --><a name="attributes-12"></a>
 ## Attributes
 
 | Attribute                     | Description                                      |
@@ -1346,12 +1701,14 @@ data-a11y-dialog-hide
 | `data-remember-state`         | Remember the dialog state<br />on popup close. Optional cookie expiry date in days<br />can be provided, otherwise session cookie is created |
 | `role`                        | Popup role. Id set to "alertdialog", hitting<br />"Escape" key will not dismiss it |
 
+<!-- TOC --><a name="properties-12"></a>
 ## Properties
 
 | Property | Modifiers | Type      | Description             |
 |----------|-----------|-----------|-------------------------|
 | `shown`  | readonly  | `boolean` | Get popup dialog status |
 
+<!-- TOC --><a name="methods-28"></a>
 ## Methods
 
 | Method           | Type                                             | Description                                      |
@@ -1369,6 +1726,7 @@ data-a11y-dialog-hide
 | `open`           | `(): Promise`                                    | Open modal                                       |
 | `openInstantly`  | `(): void`                                       | Open popup instantly<br /><br />Opens popup instantly even if animations are set<br />to content element |
 
+<!-- TOC --><a name="events-7"></a>
 ## Events
 
 | Event              | Type               | Description            |
@@ -1378,6 +1736,7 @@ data-a11y-dialog-hide
 | `on:popup:opened`  | `CustomEvent<any>` | Popup finished opening |
 | `on:popup:opening` | `CustomEvent<any>` | Popup started opening  |
 
+<!-- TOC --><a name="css-custom-properties-3"></a>
 ## CSS Custom Properties
 
 | Property                   | Description            |
@@ -1391,11 +1750,13 @@ data-a11y-dialog-hide
 | `--width`                  | Popup max width        |
 
 
+<!-- TOC --><a name="predictive-search"></a>
 # predictive-search
 
 Custom HTML element for a predictive search component, providing real-time search suggestions as the user types.
 This component handles search input, results display, keyboard navigation, and loading state management.
 
+<!-- TOC --><a name="example-12"></a>
 ## Example
 
 ```html
@@ -1452,6 +1813,7 @@ role="search"
 </predictive-search>
 ```
 
+<!-- TOC --><a name="attributes-13"></a>
 ## Attributes
 
 | Attribute    | Type      | Description                                      |
@@ -1461,6 +1823,7 @@ role="search"
 | `results`    | `boolean` | If set to 'true', indicates that there are search results available. |
 | `search-url` | `string`  | The URL used to fetch search suggestions.        |
 
+<!-- TOC --><a name="properties-13"></a>
 ## Properties
 
 | Property     | Attribute | Type      | Description                                      |
@@ -1468,6 +1831,7 @@ role="search"
 | `isDropdown` |           | `boolean` |                                                  |
 | `type`       | `type`    | `string`  | The type of search, typically used to distinguish between different layouts (e.g., 'sidebar'). |
 
+<!-- TOC --><a name="methods-29"></a>
 ## Methods
 
 | Method             | Type                                  | Description                                      |
@@ -1480,11 +1844,13 @@ role="search"
 | `switchOption`     | `(direction: string): void`           | Switches between search options using the arrow keys.<br /><br />**direction**: The direction to move ('up' or 'down'). |
 
 
+<!-- TOC --><a name="price-range"></a>
 # price-range
 
 Custom HTML element for a price range slider component, allowing users to select a range of prices.
 This component synchronizes two range sliders with corresponding number inputs.
 
+<!-- TOC --><a name="example-13"></a>
 ## Example
 
 ```html
@@ -1551,11 +1917,13 @@ id="Filter-Price-Track-2"
 ```
 
 
+<!-- TOC --><a name="product-card-spinner"></a>
 # product-card-spinner
 
 Custom HTML element for managing the loading spinner logic of a product image within a product card.
 This component observes changes to the `src` attribute of an image element and displays a loading spinner while the image is loading.
 
+<!-- TOC --><a name="properties-14"></a>
 ## Properties
 
 | Property       | Type     | Default   |
@@ -1563,12 +1931,14 @@ This component observes changes to the `src` attribute of an image element and d
 | `loadingClass` | `string` | "loading" |
 
 
+<!-- TOC --><a name="product-card-swatches"></a>
 # product-card-swatches
 
 Custom HTML element representing a product card with swatches.
 This element allows users to select different product variants by clicking on swatches,
 which updates the product image and variant link.
 
+<!-- TOC --><a name="properties-15"></a>
 ## Properties
 
 | Property      | Type                  |
@@ -1579,6 +1949,7 @@ which updates the product image and variant link.
 | `productLink` | `any \| any`          |
 | `triggers`    | `NodeListOf<Element>` |
 
+<!-- TOC --><a name="methods-30"></a>
 ## Methods
 
 | Method                   | Type                             | Description                                      |
@@ -1587,11 +1958,13 @@ which updates the product image and variant link.
 | `updateQuickShopVariant` | `(swatch: HTMLElement): void`    | Updates the quick shop variant with the selected swatch's variant ID.<br /><br />**swatch**: The swatch element that was clicked. |
 
 
+<!-- TOC --><a name="product-card-mini"></a>
 # product-card-mini
 
 A custom element that represents a mini product card.
 Handles rendering of product details, image updates, and quick shop functionality.
 
+<!-- TOC --><a name="example-14"></a>
 ## Example
 
 ```html
@@ -1639,6 +2012,7 @@ style="padding-bottom:{{ image_container_bottom_padding }}">
 </product-card-mini>
 ```
 
+<!-- TOC --><a name="attributes-14"></a>
 ## Attributes
 
 | Attribute               | Type      | Description                                      |
@@ -1650,6 +2024,7 @@ style="padding-bottom:{{ image_container_bottom_padding }}">
 | `quick-shop-trigger`    | `string`  | Specifies the type of quick shop trigger (e.g., "button"). |
 | `rendered`              | `boolean` | Indicates if the product card has been rendered. |
 
+<!-- TOC --><a name="properties-16"></a>
 ## Properties
 
 | Property  | Attribute | Type     | Description                                      |
@@ -1657,6 +2032,7 @@ style="padding-bottom:{{ image_container_bottom_padding }}">
 | `id`      | `id`      | `string` | Sets the ID of the product card and updates the quick shop ID if present. |
 | `product` |           |          | Sets the product data and triggers the rendering process if necessary. |
 
+<!-- TOC --><a name="methods-31"></a>
 ## Methods
 
 | Method           | Type                                             | Description                                      |
@@ -1666,11 +2042,13 @@ style="padding-bottom:{{ image_container_bottom_padding }}">
 | `updateSkeleton` | `(): void`                                       | Updates the skeleton element associated with the image.<br />It checks if the image has a sibling element with the tag name 'image-skeleton' and updates its attributes accordingly. |
 
 
+<!-- TOC --><a name="product-card"></a>
 # product-card
 
 Custom HTML element representing a product card.
 This element extends the ProductCardMini class and provides additional functionality specific to the product card.
 
+<!-- TOC --><a name="example-15"></a>
 ## Example
 
 ```html
@@ -1710,6 +2088,7 @@ move-quick-shop
 </product-card>
 ```
 
+<!-- TOC --><a name="attributes-15"></a>
 ## Attributes
 
 | Attribute               | Type      | Description                                      |
@@ -1721,6 +2100,7 @@ move-quick-shop
 | `quick-shop-trigger`    | `string`  | Specifies the type of quick shop trigger (e.g., "button"). |
 | `rendered`              | `boolean` | Indicates if the product card has been rendered. |
 
+<!-- TOC --><a name="properties-17"></a>
 ## Properties
 
 | Property  | Attribute | Type     | Description                                      |
@@ -1728,6 +2108,7 @@ move-quick-shop
 | `id`      | `id`      | `string` | Sets the ID of the product card and updates the quick shop ID if present. |
 | `product` |           |          | Sets the product data and updates the current variant URL and swatches listeners if necessary. |
 
+<!-- TOC --><a name="methods-32"></a>
 ## Methods
 
 | Method           | Type                                             | Description                                      |
@@ -1738,10 +2119,12 @@ move-quick-shop
 | `updateSkeleton` | `(): void`                                       | Updates the skeleton element associated with the image.<br />It checks if the image has a sibling element with the tag name 'image-skeleton' and updates its attributes accordingly. |
 
 
+<!-- TOC --><a name="product-form"></a>
 # product-form
 
 Interactive product form
 
+<!-- TOC --><a name="example-16"></a>
 ## Example
 
 ```html
@@ -1759,6 +2142,7 @@ redirect-on-add="{{ routes.cart_url }}"
 </product-form>
 ```
 
+<!-- TOC --><a name="attributes-16"></a>
 ## Attributes
 
 | Attribute         | Description                                |
@@ -1766,6 +2150,7 @@ redirect-on-add="{{ routes.cart_url }}"
 | `notify-on-add`   | Trigger cart drawer or notification on add |
 | `redirect-on-add` | Redirect to given page on add              |
 
+<!-- TOC --><a name="methods-33"></a>
 ## Methods
 
 | Method        | Type                        | Description                         |
@@ -1774,12 +2159,14 @@ redirect-on-add="{{ routes.cart_url }}"
 | `submit`      | `(e: Event): Promise<void>` | Submit form<br /><br />**e**: Event |
 
 
+<!-- TOC --><a name="product-interactive-options"></a>
 # product-interactive-options
 
 Custom HTML element that manages interactive product options.
 This component handles variant selection and updates the UI to reflect
 available, unavailable, and sold-out options.
 
+<!-- TOC --><a name="example-17"></a>
 ## Example
 
 ```html
@@ -1821,6 +2208,7 @@ data-local-render="true"
 </variant-radios>
 ```
 
+<!-- TOC --><a name="methods-34"></a>
 ## Methods
 
 | Method                                 | Type                                             | Description                                      |
@@ -1839,12 +2227,14 @@ data-local-render="true"
 | `setUpInputListeners`                  | `(): void`                                       | Sets up event listeners for input elements.<br /><br />Removes the onChange event from the variant-selects or variants-radios,<br />then adds event listeners to each input element based on its type.<br />If the input type is 'inputs', a click event listener is added.<br />If the input type is 'select', a change event listener is added.<br />Finally, the onChange event is re-added to the variant-selects or variants-radios. |
 
 
+<!-- TOC --><a name="product-model"></a>
 # product-model
 
 A custom element that extends DeferredMedia to load and set up 3D model viewers
 for product pages. It integrates Shopify's Model Viewer UI for enhanced interaction
 with 3D models.
 
+<!-- TOC --><a name="example-18"></a>
 ## Example
 
 ```html
@@ -1871,6 +2261,7 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 </product-model>
 ```
 
+<!-- TOC --><a name="methods-35"></a>
 ## Methods
 
 | Method               | Type                    | Description                                      |
@@ -1878,6 +2269,7 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 | `loadContent`        | `(): void`              | Loads the necessary content and initializes the Shopify Model Viewer UI.<br />Overrides the `loadContent` method from DeferredMedia. |
 | `setupModelViewerUI` | `(errors: Array): void` | Sets up the Shopify Model Viewer UI by attaching it to the `model-viewer` element.<br />Dispatches a custom event when the model is loaded.<br /><br />**errors**: An array of errors that may occur during setup. |
 
+<!-- TOC --><a name="events-8"></a>
 ## Events
 
 | Event                     | Type               | Description                     |
@@ -1885,10 +2277,12 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 | `on:product-model:loaded` | `CustomEvent<any>` | Fired when the model is loaded. |
 
 
+<!-- TOC --><a name="product-recommendations"></a>
 # product-recommendations
 
 A custom element that loads product recommendations from a URL and updates the DOM with the fetched content.
 
+<!-- TOC --><a name="example-19"></a>
 ## Example
 
 ```html
@@ -1901,6 +2295,7 @@ data-quick-shop-dynamic-checkout
 </product-recommendations>
 ```
 
+<!-- TOC --><a name="attributes-17"></a>
 ## Attributes
 
 | Attribute                          | Type      | Description                                      |
@@ -1909,6 +2304,7 @@ data-quick-shop-dynamic-checkout
 | `data-url`                         | `string`  | The URL used to fetch product recommendations.   |
 | `id`                               | `string`  | The unique identifier for the element.           |
 
+<!-- TOC --><a name="properties-18"></a>
 ## Properties
 
 | Property      | Type     | Default |
@@ -1916,18 +2312,21 @@ data-quick-shop-dynamic-checkout
 | `fetch_delay` | `number` | 0       |
 
 
+<!-- TOC --><a name="product-single"></a>
 # product-single
 
 A custom HTML element representing a single product page with media gallery and variant management.
 
 This element handles the display and update of media in a product gallery based on the selected variant.
 
+<!-- TOC --><a name="properties-19"></a>
 ## Properties
 
 | Property  | Description                                      |
 |-----------|--------------------------------------------------|
 | `variant` | Sets the variant property and updates the media gallery accordingly. |
 
+<!-- TOC --><a name="methods-36"></a>
 ## Methods
 
 | Method        | Type       | Description                                      |
@@ -1935,11 +2334,13 @@ This element handles the display and update of media in a product gallery based 
 | `updateMedia` | `(): void` | Updates the media gallery to show the featured media of the current variant. |
 
 
+<!-- TOC --><a name="quantity-input"></a>
 # quantity-input
 
 Custom HTML element for managing quantity input with increment and decrement buttons.
 This component handles user interaction with the quantity input, including validation and updates.
 
+<!-- TOC --><a name="example-20"></a>
 ## Example
 
 ```html
@@ -1963,6 +2364,7 @@ autocomplete="off"
 </quantity-input>
 ```
 
+<!-- TOC --><a name="attributes-18"></a>
 ## Attributes
 
 | Attribute | Type     | Description               |
@@ -1971,12 +2373,14 @@ autocomplete="off"
 | `min`     | `number` | The minimum value allowed |
 | `step`    | `number` | The step value            |
 
+<!-- TOC --><a name="properties-20"></a>
 ## Properties
 
 | Property | Type     | Description                    |
 |----------|----------|--------------------------------|
 | `value`  | `number` | Sets the quantity input value. |
 
+<!-- TOC --><a name="methods-37"></a>
 ## Methods
 
 | Method     | Type               | Description                                      |
@@ -1985,6 +2389,7 @@ autocomplete="off"
 | `subtract` | `(): void`         | Decreases the quantity value by the defined step, but not below the minimum value. |
 | `validate` | `(e: Event): void` | Validates the quantity input value against the minimum and maximum constraints.<br /><br />**e**: The input change event. |
 
+<!-- TOC --><a name="events-9"></a>
 ## Events
 
 | Event    | Type          | Description                             |
@@ -1992,6 +2397,7 @@ autocomplete="off"
 | `update` | `CustomEvent` | Dispatched when the quantity is updated |
 
 
+<!-- TOC --><a name="quick-shop"></a>
 # quick-shop
 
 A custom HTML element that represents a Quick Shop modal dialog, extending the ModalDialog class.
@@ -1999,6 +2405,7 @@ A custom HTML element that represents a Quick Shop modal dialog, extending the M
 This element handles displaying a quick shop modal with product details, including variant updates and media handling.
 It also manages modal opening/closing events and fetches quick shop content based on proximity or user interaction.
 
+<!-- TOC --><a name="example-21"></a>
 ## Example
 
 ```html
@@ -2018,6 +2425,7 @@ aria-hidden="true"
 </quick-shop>
 ```
 
+<!-- TOC --><a name="attributes-19"></a>
 ## Attributes
 
 | Attribute               | Type      | Description                                      |
@@ -2032,18 +2440,21 @@ aria-hidden="true"
 | `notify-on-add`         | `boolean` | Whether to notify on adding the product to the cart. |
 | `placeholder`           | `boolean` | Whether to display a placeholder image if no product image is available. |
 
+<!-- TOC --><a name="properties-21"></a>
 ## Properties
 
 | Property    | Type               | Description                                      |
 |-------------|--------------------|--------------------------------------------------|
 | `variantId` | `string \| number` | Sets the current variant ID and updates the variant. |
 
+<!-- TOC --><a name="methods-38"></a>
 ## Methods
 
 | Method  | Type         | Description                                      |
 |---------|--------------|--------------------------------------------------|
 | `close` | `(): string` | Closes the quick shop modal and resolves with a 'Closed' message. |
 
+<!-- TOC --><a name="events-10"></a>
 ## Events
 
 | Event                   | Type               | Description                                      |
@@ -2053,12 +2464,14 @@ aria-hidden="true"
 | `on:quick-shop:loading` | `CustomEvent<any>` | Fired when the quick shop content starts loading. |
 
 
+<!-- TOC --><a name="recent-searches"></a>
 # recent-searches
 
 A custom web component that displays a list of recent search queries.
 
 The component retrieves recent searches from localStorage and updates its content accordingly.
 
+<!-- TOC --><a name="example-22"></a>
 ## Example
 
 ```html
@@ -2071,6 +2484,7 @@ The component retrieves recent searches from localStorage and updates its conten
 </recent-searches>
 ```
 
+<!-- TOC --><a name="attributes-20"></a>
 ## Attributes
 
 | Attribute | Type     | Description                                  |
@@ -2078,10 +2492,12 @@ The component retrieves recent searches from localStorage and updates its conten
 | `hidden`  | `string` | Indicates if the component should be hidden. |
 
 
+<!-- TOC --><a name="scroll-to-target"></a>
 # scroll-to-target
 
 A custom HTML element that smooth scrolls to a target element when a link is clicked.
 
+<!-- TOC --><a name="example-23"></a>
 ## Example
 
 ```html
@@ -2090,6 +2506,7 @@ A custom HTML element that smooth scrolls to a target element when a link is cli
 </scroll-to-target>
 ```
 
+<!-- TOC --><a name="attributes-21"></a>
 ## Attributes
 
 | Attribute | Type     | Description                                |
@@ -2097,10 +2514,12 @@ A custom HTML element that smooth scrolls to a target element when a link is cli
 | `href`    | `string` | The ID of the target element to scroll to. |
 
 
+<!-- TOC --><a name="scrolling-marquee"></a>
 # scrolling-marquee
 
 A custom element that controls a scrolling marquee effect for its children.
 
+<!-- TOC --><a name="example-24"></a>
 ## Example
 
 ```html
@@ -2141,12 +2560,14 @@ tabindex="0"
 </scrolling-marquee>
 ```
 
+<!-- TOC --><a name="attributes-22"></a>
 ## Attributes
 
 | Attribute       | Type     | Description                           |
 |-----------------|----------|---------------------------------------|
 | `marquee-speed` | `number` | The speed at which the marquee moves. |
 
+<!-- TOC --><a name="properties-22"></a>
 ## Properties
 
 | Property           | Type            | Default       |
@@ -2159,6 +2580,7 @@ tabindex="0"
 | `speed`            | `number`        |               |
 | `speedModifier`    | `number`        | 10            |
 
+<!-- TOC --><a name="methods-39"></a>
 ## Methods
 
 | Method            | Type       | Description                                      |
@@ -2167,12 +2589,14 @@ tabindex="0"
 | `setMarqueeSpeed` | `(): void` | Sets the animation duration for each marquee element based on the marquee speed. |
 
 
+<!-- TOC --><a name="search-form"></a>
 # search-form
 
 A custom HTML element that manages and stores recent search queries.
 
 This element retrieves and stores recent searches in `localStorage` and updates all instances of the `recent-searches` component when a new search is added.
 
+<!-- TOC --><a name="example-25"></a>
 ## Example
 
 ```html
@@ -2202,18 +2626,21 @@ aria-label="{{ 'general.search.placeholder' | t }}"
 </search-form>
 ```
 
+<!-- TOC --><a name="attributes-23"></a>
 ## Attributes
 
 | Attribute                   | Type      | Description                                      |
 |-----------------------------|-----------|--------------------------------------------------|
 | `add-recent-search-on-load` | `boolean` | If present, adds the current form state to the recent searches list when the element is connected to the DOM. |
 
+<!-- TOC --><a name="properties-23"></a>
 ## Properties
 
 | Property | Type         |
 |----------|--------------|
 | `form`   | `any \| any` |
 
+<!-- TOC --><a name="methods-40"></a>
 ## Methods
 
 | Method                         | Type       | Description                                      |
@@ -2221,6 +2648,7 @@ aria-label="{{ 'general.search.placeholder' | t }}"
 | `addFormStateToRecentSearches` | `(): void` | Adds the current form state to the recent searches list by constructing a search URI and invoking `addRecentSearch`.<br /><br />This method collects form data, constructs a URL including the query parameters, and adds the search to the recent searches list. |
 
 
+<!-- TOC --><a name="search-modal"></a>
 # search-modal
 
 A custom HTML element that extends `ModalDialog` to provide a searchable modal interface.
@@ -2228,6 +2656,7 @@ A custom HTML element that extends `ModalDialog` to provide a searchable modal i
 This element integrates with the ModalDialog class and manages a predictive search component within the modal.
 It handles closing the predictive search and clearing the search input when the modal is closed.
 
+<!-- TOC --><a name="example-26"></a>
 ## Example
 
 ```html
@@ -2272,12 +2701,14 @@ data-a11y-dialog-hide
 ```
 
 
+<!-- TOC --><a name="staged-action"></a>
 # staged-action
 
 Staged Action
 
 Controls the staged action state.
 
+<!-- TOC --><a name="example-27"></a>
 ## Example
 
 ```html
@@ -2295,6 +2726,7 @@ Controls the staged action state.
 </staged-action>
 ```
 
+<!-- TOC --><a name="methods-41"></a>
 ## Methods
 
 | Method     | Type                        | Description                                      |
@@ -2302,10 +2734,12 @@ Controls the staged action state.
 | `setState` | `(state?: string): Promise` | Set state<br /><br />**state**: State to set ('IDLE', 'DOING', 'DONE') |
 
 
+<!-- TOC --><a name="sticky-scroll"></a>
 # sticky-scroll
 
 A custom element that provides a sticky scroll behavior, ensuring that it sticks to the top of the viewport with a specified gap.
 
+<!-- TOC --><a name="attributes-24"></a>
 ## Attributes
 
 | Attribute            | Type      | Description                          |
@@ -2313,10 +2747,12 @@ A custom element that provides a sticky scroll behavior, ensuring that it sticks
 | `data-sticky-header` | `boolean` | Whether the header should be sticky. |
 
 
+<!-- TOC --><a name="tabbed-content"></a>
 # tabbed-content
 
 A custom web component that manages tabbed navigation and displays the corresponding tab panel content.
 
+<!-- TOC --><a name="methods-42"></a>
 ## Methods
 
 | Method    | Type                 | Description                                      |
@@ -2324,10 +2760,12 @@ A custom web component that manages tabbed navigation and displays the correspon
 | `openTab` | `(id: string): void` | Opens the tab with the given ID and updates the tab panels accordingly. Sets the `aria-selected` attribute on the active tab and updates visibility of tab panels. Resets any animations in the newly selected tab panel.<br /><br />**id**: The ID of the tab to open. |
 
 
+<!-- TOC --><a name="tab-triggers"></a>
 # tab-triggers
 
 A custom web component that manages the triggers for the tabs, including scrolling to the selected tab and updating external links.
 
+<!-- TOC --><a name="properties-24"></a>
 ## Properties
 
 | Property     | Type     |
@@ -2335,10 +2773,12 @@ A custom web component that manages the triggers for the tabs, including scrolli
 | `alignItems` | `string` |
 
 
+<!-- TOC --><a name="variant-selects"></a>
 # variant-selects
 
 A custom element that handles variant selection for products, updating the UI based on the selected variant.
 
+<!-- TOC --><a name="attributes-25"></a>
 ## Attributes
 
 | Attribute         | Type      | Description                                      |
@@ -2348,6 +2788,7 @@ A custom element that handles variant selection for products, updating the UI ba
 | `data-update-url` | `boolean` | Determines if the URL should be updated with the variant ID. |
 | `data-url`        | `string`  | The URL used to update the browser history with the variant ID. |
 
+<!-- TOC --><a name="methods-43"></a>
 ## Methods
 
 | Method                     | Type                                             | Description                                      |
@@ -2364,6 +2805,7 @@ A custom element that handles variant selection for products, updating the UI ba
 | `updateURL`                | `(): void`                                       | Updates the URL in the browser's history with the current variant ID.<br />Does nothing if the variant is unavailable or URL updates are disabled. |
 | `updateVariantInput`       | `(): void`                                       | Updates the hidden input field with the current variant ID and triggers a change event.<br />Updates the variant in the closest `product-single` element if it exists. |
 
+<!-- TOC --><a name="events-11"></a>
 ## Events
 
 | Event               | Type                             | Description                                      |
@@ -2372,10 +2814,12 @@ A custom element that handles variant selection for products, updating the UI ba
 | `on:variant:change` | `CustomEvent<{ variant: any; }>` | Fired when the variant selection changes, with the current variant in the event detail. |
 
 
+<!-- TOC --><a name="variant-radios"></a>
 # variant-radios
 
 A custom element that extends `VariantSelects` to handle variant selection using radio buttons.
 
+<!-- TOC --><a name="attributes-26"></a>
 ## Attributes
 
 | Attribute         | Type      | Description                                      |
@@ -2385,6 +2829,7 @@ A custom element that extends `VariantSelects` to handle variant selection using
 | `data-update-url` | `boolean` | Determines if the URL should be updated with the variant ID. |
 | `data-url`        | `string`  | The URL used to update the browser history with the variant ID. |
 
+<!-- TOC --><a name="methods-44"></a>
 ## Methods
 
 | Method                     | Type                                             | Description                                      |
@@ -2401,6 +2846,7 @@ A custom element that extends `VariantSelects` to handle variant selection using
 | `updateURL`                | `(): void`                                       | Updates the URL in the browser's history with the current variant ID.<br />Does nothing if the variant is unavailable or URL updates are disabled. |
 | `updateVariantInput`       | `(): void`                                       | Updates the hidden input field with the current variant ID and triggers a change event.<br />Updates the variant in the closest `product-single` element if it exists. |
 
+<!-- TOC --><a name="events-12"></a>
 ## Events
 
 | Event               | Type                             | Description                                      |
@@ -2409,16 +2855,19 @@ A custom element that extends `VariantSelects` to handle variant selection using
 | `on:variant:change` | `CustomEvent<{ variant: any; }>` | Fired when the variant selection changes, with the current variant in the event detail. |
 
 
+<!-- TOC --><a name="variant-swatches"></a>
 # variant-swatches
 
 A custom element that handles variant selection using swatches and updates a label based on the selected variant.
 
+<!-- TOC --><a name="attributes-27"></a>
 ## Attributes
 
 | Attribute      | Type     | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | `data-form-id` | `string` | The ID of the form element that contains the swatch inputs. |
 
+<!-- TOC --><a name="methods-45"></a>
 ## Methods
 
 | Method        | Type       | Description                                      |
@@ -2426,10 +2875,12 @@ A custom element that handles variant selection using swatches and updates a lab
 | `updateLabel` | `(): void` | Updates the label based on the currently selected variant option. |
 
 
+<!-- TOC --><a name="variant-mixed-inputs"></a>
 # variant-mixed-inputs
 
 A custom element that that extends `VariantSelects` to handle variant selection using a mix of input types and select elements.
 
+<!-- TOC --><a name="attributes-28"></a>
 ## Attributes
 
 | Attribute         | Type      | Description                                      |
@@ -2439,6 +2890,7 @@ A custom element that that extends `VariantSelects` to handle variant selection 
 | `data-update-url` | `boolean` | Determines if the URL should be updated with the variant ID. |
 | `data-url`        | `string`  | The URL used to update the browser history with the variant ID. |
 
+<!-- TOC --><a name="methods-46"></a>
 ## Methods
 
 | Method                     | Type                                             | Description                                      |
@@ -2455,6 +2907,7 @@ A custom element that that extends `VariantSelects` to handle variant selection 
 | `updateURL`                | `(): void`                                       | Updates the URL in the browser's history with the current variant ID.<br />Does nothing if the variant is unavailable or URL updates are disabled. |
 | `updateVariantInput`       | `(): void`                                       | Updates the hidden input field with the current variant ID and triggers a change event.<br />Updates the variant in the closest `product-single` element if it exists. |
 
+<!-- TOC --><a name="events-13"></a>
 ## Events
 
 | Event               | Type                             | Description                                      |
@@ -2463,6 +2916,7 @@ A custom element that that extends `VariantSelects` to handle variant selection 
 | `on:variant:change` | `CustomEvent<{ variant: any; }>` | Fired when the variant selection changes, with the current variant in the event detail. |
 
 
+<!-- TOC --><a name="video-dialog"></a>
 # video-dialog
 
 Video popup dialog
@@ -2470,6 +2924,7 @@ Video popup dialog
 Load and plays the video when opened, pauses on close
 Inherits all the methods and events of PopupDialog class
 
+<!-- TOC --><a name="example-28"></a>
 ## Example
 
 ```html
@@ -2510,6 +2965,7 @@ poster_image_sizes: '(min-width: 990px) 990px, calc(100vw - 36px)'
 </video-dialog>
 ```
 
+<!-- TOC --><a name="methods-47"></a>
 ## Methods
 
 | Method              | Type       |
@@ -2518,12 +2974,14 @@ poster_image_sizes: '(min-width: 990px) 990px, calc(100vw - 36px)'
 | `#pauseVideo`       | `(): void` |
 
 
+<!-- TOC --><a name="video-gallery"></a>
 # video-gallery
 
 Video gallery
 
 A custom element that displays a collection of videos in a video gallery.
 
+<!-- TOC --><a name="example-29"></a>
 ## Example
 
 ```html
@@ -2648,6 +3106,7 @@ data-target-id="video-gallery-slide--{{ block.id }}"
 </video-gallery>
 ```
 
+<!-- TOC --><a name="methods-48"></a>
 ## Methods
 
 | Method         | Type                                  | Description                                      |
@@ -2656,6 +3115,7 @@ data-target-id="video-gallery-slide--{{ block.id }}"
 | `changeSlide`  | `(videSlideId: number): VideoGallery` | Change slide<br /><br />**videSlideId**: ID of the target slide |
 
 
+<!-- TOC --><a name="video-gallery-thumbnail"></a>
 # video-gallery-thumbnail
 
 Video Gallery Thumbnail
@@ -2663,10 +3123,12 @@ Video Gallery Thumbnail
 A custom element that handles the display of a Vimeo video thumbnail in a video gallery.
 
 
+<!-- TOC --><a name="video-player"></a>
 # video-player
 
 Video player
 
+<!-- TOC --><a name="example-30"></a>
 ## Example
 
 ```html
@@ -2694,6 +3156,7 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 </video-player>
 ```
 
+<!-- TOC --><a name="attributes-29"></a>
 ## Attributes
 
 | Attribute     | Description                                      |
@@ -2701,12 +3164,14 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 | `data-poster` | Poster (Optional: useful for external videos to replace the default one) |
 | `data-type`   | Video type ("html5", "youtube", "vimeo")         |
 
+<!-- TOC --><a name="properties-25"></a>
 ## Properties
 
 | Property | Modifiers | Type      | Description             |
 |----------|-----------|-----------|-------------------------|
 | `ready`  | readonly  | `boolean` | Get video player status |
 
+<!-- TOC --><a name="methods-49"></a>
 ## Methods
 
 | Method        | Type                                             | Description                                      |
@@ -2717,6 +3182,7 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 | `pause`       | `(): VideoPlayer`                                | Pause video                                      |
 | `play`        | `(): VideoPlayer`                                | Play video                                       |
 
+<!-- TOC --><a name="events-14"></a>
 ## Events
 
 | Event                   | Type               | Description                |
