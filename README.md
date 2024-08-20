@@ -2793,3 +2793,7 @@ widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
 | Event                   | Type               | Description                |
 |-------------------------|--------------------|----------------------------|
 | `on:video-player:ready` | `CustomEvent<any>` | Fired when player is ready |
+
+
+<br><hr>
+[🔼 Back to top](#Table of contents)
