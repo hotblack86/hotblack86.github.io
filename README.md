@@ -1,6 +1,4 @@
-The following documents all theme web components using web-component-analyzer CLI - https://github.com/runem/web-component-analyzer
-
-View the documentation oh Github Pages - https://hotblack86.github.io/
+Documentation for all web components, using web-component-analyzer CLI - https://github.com/runem/web-component-analyzer
 
 
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
