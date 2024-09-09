@@ -653,7 +653,7 @@ media-gallery__arrow--prev
 js-carousel-prev
 "
 >
-{%- render 'icons-theme', icon: 'chevron, additional_classes: 'icon--left' -%}
+
 </button>
 <button
 class="
@@ -662,7 +662,7 @@ media-gallery__arrow--next
 js-carousel-next
 "
 >
-{%- render 'icons-theme', icon: 'chevron -%}
+
 </button>
 
 <!-- Virtual slides -->
@@ -1558,7 +1558,6 @@ data-target-id="video-gallery-slide--{{ block.id }}"
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
    <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
      {%- assign icon_title = 'sections.video.play_label' | t -%}
-     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
@@ -1583,7 +1582,6 @@ data-target-id="video-gallery-slide--2"
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
    <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
      {%- assign icon_title = 'sections.video.play_label' | t -%}
-     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
@@ -1607,7 +1605,6 @@ data-target-id="video-gallery-slide--{{ block.id }}"
    <div class="home-video__item-img--overlay u-bg-overlay"></div>
    <div class="home-video__item-icon home-video__item-icon--play u-flex u-flex--middle u-flex--center">
      {%- assign icon_title = 'sections.video.play_label' | t -%}
-     {%- render 'icons-theme', icon: 'play', title: icon_title -%}
    </div>
  </div>
 </div>
